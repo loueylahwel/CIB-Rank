@@ -1,0 +1,1143 @@
+event_id,timestamp,event_type,tweet_id,tweet_text,author_id,actor_id,actor_username,actor_created_at,actor_followers,actor_following,actor_statuses,actor_default_avatar,reply_latency_seconds,is_bot_truth
+e0000667,2026-11-14T05:09:00Z,like,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000423,2026-11-14T07:27:00Z,like,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000484,2026-11-14T03:53:00Z,like,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0000040,2026-11-14T09:31:00Z,like,orig_photography_6,Any tips for a beginner with #photography?,author_photography,h0016,user_river16x,2023-10-28T12:00:00Z,3983,813,2629,1,,0
+e0000091,2026-11-14T05:03:00Z,like,orig_fitness_4,"Morning run done, feeling good #fitness",author_fitness,h0038,user_blue38x,2021-03-05T12:00:00Z,1698,925,8344,0,,0
+e0000427,2026-11-13T19:24:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,5,1
+e0000754,2026-11-13T14:27:00Z,like,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000861,2026-11-13T22:49:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0000534,2026-11-14T10:22:00Z,like,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000953,2026-11-14T03:09:00Z,like,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000525,2026-11-13T19:26:00Z,reply,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,2,1
+e0000747,2026-11-13T13:41:00Z,reply,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,3,1
+e0000470,2026-11-14T09:29:00Z,reply,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,1,1
+e0000607,2026-11-14T01:40:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,8,1
+e0000738,2026-11-14T03:51:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,2,1
+e0000260,2026-11-14T02:52:00Z,reply,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,1,1
+e0000205,2026-11-13T16:49:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,4,1
+e0000772,2026-11-14T05:59:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,6,1
+e0000148,2026-11-13T14:02:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,2,1
+e0000787,2026-11-13T23:41:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,4,1
+e0000577,2026-11-14T11:29:00Z,reply,orig_crypto_1,"Huge #crypto gains this week, join now",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,2,1
+e0001016,2026-11-14T01:09:00Z,like,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000657,2026-11-13T23:39:00Z,like,orig_nft_4,Don't miss the next #nft drop!!,author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000918,2026-11-13T19:38:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000927,2026-11-13T14:31:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,7,1
+e0000615,2026-11-14T09:24:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000292,2026-11-14T06:55:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,3,1
+e0000585,2026-11-14T07:31:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,5,1
+e0000373,2026-11-14T07:06:00Z,reply,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,9,1
+e0000753,2026-11-13T13:49:00Z,reply,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,4,1
+e0001100,2026-11-14T06:46:00Z,like,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000436,2026-11-14T00:51:00Z,like,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000775,2026-11-13T22:54:00Z,like,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,,1
+e0000570,2026-11-14T09:36:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,4,1
+e0000992,2026-11-14T00:41:00Z,reply,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,2,1
+e0001095,2026-11-14T06:30:00Z,like,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0001072,2026-11-13T12:30:00Z,reply,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,4,1
+e0001129,2026-11-13T23:35:00Z,like,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000855,2026-11-13T13:28:00Z,like,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0001073,2026-11-13T14:21:00Z,reply,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,4,1
+e0000291,2026-11-14T10:04:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,6,1
+e0000082,2026-11-13T16:40:00Z,reply,orig_cooking_4,"Morning run done, feeling good #fitness",author_cooking,h0032,user_oak32x,2023-07-31T12:00:00Z,3917,591,16354,0,1263,0
+e0000234,2026-11-14T10:25:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,5,1
+e0000029,2026-11-14T01:44:00Z,like,orig_fitness_7,Golden hour shots from today #photography,author_fitness,h0012,user_oak12x,2021-01-08T12:00:00Z,2458,723,2898,0,,0
+e0001076,2026-11-13T20:59:00Z,like,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000774,2026-11-13T23:01:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,3,1
+e0000259,2026-11-14T04:01:00Z,like,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0001087,2026-11-14T08:47:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000237,2026-11-13T20:23:00Z,like,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000670,2026-11-13T19:48:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,3,1
+e0000849,2026-11-14T09:27:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,8,1
+e0001000,2026-11-14T11:53:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000642,2026-11-14T04:13:00Z,like,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000004,2026-11-13T19:50:00Z,retweet,orig_cooking_4,Any tips for a beginner with #cooking?,author_cooking,h0002,user_sun2x,2022-06-19T12:00:00Z,804,544,14202,1,,0
+e0000937,2026-11-14T06:02:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,9,1
+e0000527,2026-11-14T04:51:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000946,2026-11-14T08:08:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,7,1
+e0000986,2026-11-13T16:53:00Z,reply,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,10,1
+e0000590,2026-11-13T15:48:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,,1
+e0000154,2026-11-14T11:06:00Z,like,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000195,2026-11-14T08:23:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0001088,2026-11-13T23:09:00Z,reply,orig_nft_9,Don't miss the next #nft drop!!,author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,2,1
+e0001025,2026-11-14T09:04:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,5,1
+e0000559,2026-11-14T02:06:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,2,1
+e0000996,2026-11-13T13:53:00Z,like,orig_crypto_11,Don't miss the next #crypto drop!!,author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000661,2026-11-14T11:46:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,6,1
+e0000224,2026-11-14T11:02:00Z,like,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000776,2026-11-14T11:45:00Z,reply,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,8,1
+e0000870,2026-11-14T11:35:00Z,like,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000906,2026-11-14T04:33:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,5,1
+e0000368,2026-11-13T16:43:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,3,1
+e0000565,2026-11-13T14:18:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,8,1
+e0001127,2026-11-14T01:40:00Z,like,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000167,2026-11-14T08:39:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,1,1
+e0000629,2026-11-13T21:57:00Z,reply,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,3,1
+e0000272,2026-11-14T11:18:00Z,reply,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,5,1
+e0000487,2026-11-13T13:05:00Z,like,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0000080,2026-11-13T20:45:00Z,reply,orig_gardening_2,Trying a new recipe tonight #cooking,author_gardening,h0031,user_river31x,2023-03-17T12:00:00Z,2945,716,12432,0,1784,0
+e0000908,2026-11-13T21:00:00Z,reply,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,7,1
+e0000151,2026-11-14T03:07:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,9,1
+e0000883,2026-11-13T13:17:00Z,reply,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,7,1
+e0000031,2026-11-14T00:39:00Z,reply,orig_photography_12,Any tips for a beginner with #photography?,author_photography,h0013,user_blue13x,2020-03-08T12:00:00Z,2902,255,16522,0,961,0
+e0000277,2026-11-13T14:10:00Z,like,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000687,2026-11-14T10:52:00Z,like,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000597,2026-11-14T03:13:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,7,1
+e0000144,2026-11-13T18:42:00Z,like,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000134,2026-11-14T10:27:00Z,retweet,orig_photography_0,Finally planted the tomatoes #gardening,author_photography,h0056,user_sun56x,2021-10-07T12:00:00Z,900,619,15316,0,,0
+e0000231,2026-11-13T13:40:00Z,like,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000492,2026-11-14T09:17:00Z,reply,orig_nft_9,"Huge #nft gains this week, join now",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,4,1
+e0001108,2026-11-13T12:54:00Z,like,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000184,2026-11-14T06:51:00Z,reply,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,2,1
+e0000198,2026-11-13T23:23:00Z,like,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000074,2026-11-14T07:29:00Z,reply,orig_photography_14,"Morning run done, feeling good #fitness",author_photography,h0029,user_sun29x,2024-04-13T12:00:00Z,101,680,5456,0,1821,0
+e0000064,2026-11-14T07:47:00Z,reply,orig_fitness_8,Trying a new recipe tonight #cooking,author_fitness,h0025,user_oak25x,2023-03-29T12:00:00Z,4479,478,19057,0,1499,0
+e0000702,2026-11-14T08:11:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000812,2026-11-13T12:23:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,7,1
+e0000916,2026-11-14T04:31:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,10,1
+e0000084,2026-11-13T16:16:00Z,reply,orig_gardening_3,Finally planted the tomatoes #gardening,author_gardening,h0033,user_sun33x,2023-04-04T12:00:00Z,2906,858,9175,0,688,0
+e0000733,2026-11-14T09:05:00Z,reply,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,1,1
+e0001038,2026-11-14T01:03:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,6,1
+e0001014,2026-11-14T08:05:00Z,like,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000440,2026-11-14T09:16:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,10,1
+e0001042,2026-11-13T18:24:00Z,reply,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,1,1
+e0000075,2026-11-14T01:39:00Z,retweet,orig_photography_13,Finally planted the tomatoes #gardening,author_photography,h0029,user_sun29x,2024-04-13T12:00:00Z,101,680,5456,0,,0
+e0000785,2026-11-14T02:57:00Z,reply,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,2,1
+e0000884,2026-11-13T13:31:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,6,1
+e0000583,2026-11-13T21:40:00Z,reply,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,7,1
+e0000083,2026-11-14T03:34:00Z,reply,orig_fitness_2,"Morning run done, feeling good #fitness",author_fitness,h0033,user_sun33x,2023-04-04T12:00:00Z,2906,858,9175,0,875,0
+e0001019,2026-11-14T07:37:00Z,like,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0001117,2026-11-13T17:23:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,5,1
+e0000705,2026-11-13T15:05:00Z,like,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000350,2026-11-13T16:29:00Z,like,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0001093,2026-11-14T06:55:00Z,reply,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,7,1
+e0000014,2026-11-14T07:10:00Z,like,orig_gardening_11,Trying a new recipe tonight #cooking,author_gardening,h0006,user_sun6x,2023-04-04T12:00:00Z,4776,415,18858,0,,0
+e0000924,2026-11-14T10:03:00Z,reply,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,5,1
+e0001041,2026-11-13T16:00:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,4,1
+e0000756,2026-11-14T05:59:00Z,like,orig_nft_9,Don't miss the next #nft drop!!,author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000734,2026-11-13T15:01:00Z,like,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000116,2026-11-13T20:55:00Z,like,orig_fitness_8,Golden hour shots from today #photography,author_fitness,h0050,user_river50x,2022-06-27T12:00:00Z,4205,346,19716,0,,0
+e0000888,2026-11-13T21:13:00Z,like,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000567,2026-11-14T10:35:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,8,1
+e0001091,2026-11-14T08:45:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,3,1
+e0000757,2026-11-14T02:18:00Z,like,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000495,2026-11-14T06:23:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,5,1
+e0000446,2026-11-13T12:58:00Z,like,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000463,2026-11-14T09:01:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,3,1
+e0001071,2026-11-13T18:14:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,2,1
+e0000488,2026-11-14T04:00:00Z,like,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0000201,2026-11-14T09:55:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,5,1
+e0000037,2026-11-13T17:57:00Z,retweet,orig_fitness_10,Finally planted the tomatoes #gardening,author_fitness,h0015,user_oak15x,2020-12-11T12:00:00Z,4850,916,15448,1,,0
+e0000497,2026-11-13T13:53:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0001013,2026-11-13T14:16:00Z,like,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000893,2026-11-14T10:07:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,6,1
+e0001005,2026-11-13T12:47:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,2,1
+e0000758,2026-11-14T11:04:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,6,1
+e0000123,2026-11-14T04:54:00Z,reply,orig_gardening_9,"Morning run done, feeling good #fitness",author_gardening,h0052,user_oak52x,2017-06-11T12:00:00Z,4209,233,17926,0,2117,0
+e0000396,2026-11-13T22:13:00Z,reply,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,6,1
+e0000009,2026-11-13T19:26:00Z,like,orig_gardening_4,Trying a new recipe tonight #cooking,author_gardening,h0004,user_sun4x,2022-05-15T12:00:00Z,4827,699,13498,1,,0
+e0001114,2026-11-13T13:33:00Z,like,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000370,2026-11-14T11:55:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,7,1
+e0000365,2026-11-14T01:24:00Z,like,orig_nft_8,Don't miss the next #nft drop!!,author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000696,2026-11-14T04:34:00Z,reply,orig_nft_8,Don't miss the next #nft drop!!,author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,9,1
+e0001099,2026-11-13T23:19:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0001136,2026-11-13T16:24:00Z,reply,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,8,1
+e0000940,2026-11-13T19:38:00Z,reply,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,7,1
+e0000085,2026-11-14T03:37:00Z,reply,orig_fitness_8,Trying a new recipe tonight #cooking,author_fitness,h0033,user_sun33x,2023-04-04T12:00:00Z,2906,858,9175,0,1682,0
+e0000303,2026-11-14T09:18:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,3,1
+e0000414,2026-11-13T15:00:00Z,like,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000624,2026-11-13T18:19:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,7,1
+e0000836,2026-11-14T11:26:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,7,1
+e0001079,2026-11-13T20:27:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,9,1
+e0000831,2026-11-14T00:06:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,6,1
+e0000605,2026-11-14T04:49:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,6,1
+e0000137,2026-11-14T06:36:00Z,reply,orig_gardening_2,"Morning run done, feeling good #fitness",author_gardening,h0057,user_oak57x,2024-02-29T12:00:00Z,2767,727,17065,0,2615,0
+e0001094,2026-11-14T06:56:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,7,1
+e0000609,2026-11-14T11:58:00Z,reply,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,10,1
+e0000382,2026-11-13T20:28:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000697,2026-11-14T10:58:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,10,1
+e0000476,2026-11-14T00:46:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,9,1
+e0000900,2026-11-14T08:16:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000351,2026-11-13T23:03:00Z,like,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000226,2026-11-13T21:49:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,3,1
+e0000897,2026-11-14T11:49:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,8,1
+e0000072,2026-11-13T15:41:00Z,retweet,orig_fitness_14,"Morning run done, feeling good #fitness",author_fitness,h0028,user_blue28x,2024-02-13T12:00:00Z,3709,266,4102,0,,0
+e0000469,2026-11-14T11:17:00Z,like,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0000347,2026-11-14T02:34:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000428,2026-11-14T08:14:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,5,1
+e0000175,2026-11-14T09:04:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000623,2026-11-14T06:10:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,4,1
+e0000564,2026-11-14T00:57:00Z,reply,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,9,1
+e0000346,2026-11-13T13:12:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,3,1
+e0000652,2026-11-13T18:43:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,8,1
+e0000321,2026-11-13T20:14:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000599,2026-11-14T01:59:00Z,like,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000952,2026-11-13T17:33:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000279,2026-11-13T20:42:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,9,1
+e0000485,2026-11-14T00:21:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,2,1
+e0000533,2026-11-14T04:06:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,3,1
+e0000027,2026-11-13T17:14:00Z,like,orig_gardening_2,"Morning run done, feeling good #fitness",author_gardening,h0011,user_sun11x,2022-02-19T12:00:00Z,4805,407,17709,0,,0
+e0000130,2026-11-13T15:00:00Z,like,orig_cooking_11,Golden hour shots from today #photography,author_cooking,h0055,user_oak55x,2021-03-20T12:00:00Z,969,673,2361,0,,0
+e0000827,2026-11-13T16:52:00Z,reply,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,10,1
+e0000298,2026-11-14T06:28:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,7,1
+e0000932,2026-11-13T19:31:00Z,reply,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,5,1
+e0000501,2026-11-14T11:05:00Z,reply,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,4,1
+e0000433,2026-11-13T14:01:00Z,like,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000364,2026-11-14T08:52:00Z,like,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000247,2026-11-14T07:36:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000840,2026-11-13T14:22:00Z,reply,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,4,1
+e0000034,2026-11-14T05:07:00Z,retweet,orig_fitness_14,"Morning run done, feeling good #fitness",author_fitness,h0014,user_sun14x,2017-05-18T12:00:00Z,4671,686,10780,0,,0
+e0000203,2026-11-13T22:20:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,4,1
+e0000430,2026-11-14T10:27:00Z,reply,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,3,1
+e0000552,2026-11-13T19:51:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,5,1
+e0000171,2026-11-13T15:47:00Z,like,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000262,2026-11-13T18:57:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000792,2026-11-14T11:28:00Z,like,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,,1
+e0000038,2026-11-13T22:53:00Z,like,orig_gardening_6,Trying a new recipe tonight #cooking,author_gardening,h0015,user_oak15x,2020-12-11T12:00:00Z,4850,916,15448,1,,0
+e0000063,2026-11-14T08:17:00Z,like,orig_fitness_0,"Morning run done, feeling good #fitness",author_fitness,h0024,user_oak24x,2024-09-26T12:00:00Z,4926,286,9109,0,,0
+e0000200,2026-11-13T15:03:00Z,like,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000743,2026-11-14T10:00:00Z,like,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000293,2026-11-14T02:45:00Z,reply,orig_nft_9,Don't miss the next #nft drop!!,author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,4,1
+e0000250,2026-11-14T10:13:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000035,2026-11-13T18:07:00Z,reply,orig_cooking_3,Golden hour shots from today #photography,author_cooking,h0014,user_sun14x,2017-05-18T12:00:00Z,4671,686,10780,0,1628,0
+e0000416,2026-11-13T14:34:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000276,2026-11-13T23:23:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,1,1
+e0000225,2026-11-14T08:48:00Z,like,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000720,2026-11-14T05:11:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000362,2026-11-13T13:52:00Z,reply,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,6,1
+e0001063,2026-11-13T17:31:00Z,like,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000008,2026-11-13T12:21:00Z,retweet,orig_gardening_4,"Morning run done, feeling good #fitness",author_gardening,h0004,user_sun4x,2022-05-15T12:00:00Z,4827,699,13498,1,,0
+e0000704,2026-11-14T05:08:00Z,like,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000287,2026-11-14T06:39:00Z,like,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000305,2026-11-14T05:06:00Z,reply,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,4,1
+e0000372,2026-11-13T17:07:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,3,1
+e0000475,2026-11-13T20:42:00Z,like,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0000574,2026-11-14T11:41:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,3,1
+e0000823,2026-11-14T08:01:00Z,reply,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,3,1
+e0000663,2026-11-13T14:07:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000999,2026-11-13T21:13:00Z,like,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000033,2026-11-14T08:54:00Z,retweet,orig_cooking_5,Finally planted the tomatoes #gardening,author_cooking,h0013,user_blue13x,2020-03-08T12:00:00Z,2902,255,16522,0,,0
+e0000526,2026-11-13T15:37:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000828,2026-11-14T09:05:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000929,2026-11-14T00:49:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,2,1
+e0000217,2026-11-14T08:55:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000181,2026-11-14T02:53:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,4,1
+e0000136,2026-11-13T15:54:00Z,reply,orig_gardening_2,Golden hour shots from today #photography,author_gardening,h0057,user_oak57x,2024-02-29T12:00:00Z,2767,727,17065,0,2450,0
+e0000301,2026-11-13T22:03:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,7,1
+e0000872,2026-11-14T01:32:00Z,like,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000873,2026-11-14T07:27:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000749,2026-11-13T17:26:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,1,1
+e0000240,2026-11-14T05:42:00Z,like,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000788,2026-11-14T05:52:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,8,1
+e0001101,2026-11-14T10:17:00Z,like,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000563,2026-11-14T03:09:00Z,reply,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,4,1
+e0000922,2026-11-13T19:07:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,6,1
+e0000665,2026-11-13T23:43:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,7,1
+e0000655,2026-11-13T18:28:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0001015,2026-11-14T10:34:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,4,1
+e0000046,2026-11-13T16:07:00Z,retweet,orig_cooking_3,Trying a new recipe tonight #cooking,author_cooking,h0018,user_river18x,2020-07-18T12:00:00Z,284,572,12147,0,,0
+e0000491,2026-11-14T01:29:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,2,1
+e0000049,2026-11-13T17:20:00Z,like,orig_gardening_3,Golden hour shots from today #photography,author_gardening,h0019,user_oak19x,2023-07-24T12:00:00Z,582,323,9918,0,,0
+e0000802,2026-11-14T07:19:00Z,like,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000544,2026-11-13T14:20:00Z,like,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,,1
+e0000359,2026-11-13T18:21:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000209,2026-11-14T02:25:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000967,2026-11-14T00:44:00Z,reply,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,8,1
+e0000088,2026-11-14T05:23:00Z,retweet,orig_cooking_14,Finally planted the tomatoes #gardening,author_cooking,h0035,user_river35x,2018-12-13T12:00:00Z,1300,806,18298,0,,0
+e0000593,2026-11-13T16:51:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000070,2026-11-13T23:37:00Z,reply,orig_gardening_4,Trying a new recipe tonight #cooking,author_gardening,h0027,user_oak27x,2020-05-25T12:00:00Z,948,593,13621,1,2540,0
+e0000707,2026-11-13T16:43:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000308,2026-11-13T13:18:00Z,reply,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,8,1
+e0000923,2026-11-14T09:59:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,2,1
+e0000766,2026-11-14T04:17:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,1,1
+e0000309,2026-11-13T23:29:00Z,like,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0001096,2026-11-14T08:37:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,9,1
+e0000523,2026-11-13T16:34:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,8,1
+e0000710,2026-11-13T23:35:00Z,like,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000023,2026-11-14T03:30:00Z,like,orig_cooking_4,"Morning run done, feeling good #fitness",author_cooking,h0010,user_river10x,2020-10-25T12:00:00Z,2135,913,6390,0,,0
+e0000689,2026-11-13T15:22:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000211,2026-11-14T01:40:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,6,1
+e0001130,2026-11-13T18:49:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,1,1
+e0000606,2026-11-13T19:04:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,8,1
+e0000560,2026-11-14T06:03:00Z,like,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,,1
+e0001028,2026-11-13T21:05:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,6,1
+e0000053,2026-11-13T22:29:00Z,retweet,orig_fitness_3,Golden hour shots from today #photography,author_fitness,h0021,user_oak21x,2019-11-02T12:00:00Z,4601,384,4986,0,,0
+e0001029,2026-11-14T08:18:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,6,1
+e0000173,2026-11-13T14:17:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,3,1
+e0001052,2026-11-13T20:28:00Z,reply,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,7,1
+e0000115,2026-11-14T09:43:00Z,like,orig_gardening_2,Golden hour shots from today #photography,author_gardening,h0050,user_river50x,2022-06-27T12:00:00Z,4205,346,19716,0,,0
+e0000236,2026-11-13T12:14:00Z,like,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000508,2026-11-13T15:55:00Z,reply,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,6,1
+e0000732,2026-11-13T22:59:00Z,like,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000921,2026-11-14T09:43:00Z,like,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000103,2026-11-14T00:08:00Z,like,orig_fitness_4,Any tips for a beginner with #fitness?,author_fitness,h0043,user_sun43x,2018-01-11T12:00:00Z,4027,768,11772,0,,0
+e0000844,2026-11-14T09:53:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,5,1
+e0000503,2026-11-13T15:06:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,1,1
+e0000011,2026-11-13T17:16:00Z,like,orig_photography_3,Golden hour shots from today #photography,author_photography,h0006,user_sun6x,2023-04-04T12:00:00Z,4776,415,18858,0,,0
+e0000894,2026-11-14T06:44:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,4,1
+e0000748,2026-11-14T03:29:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,6,1
+e0000409,2026-11-13T17:09:00Z,like,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000174,2026-11-13T14:34:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000575,2026-11-14T10:37:00Z,reply,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,4,1
+e0000041,2026-11-14T04:22:00Z,like,orig_photography_2,Golden hour shots from today #photography,author_photography,h0016,user_river16x,2023-10-28T12:00:00Z,3983,813,2629,1,,0
+e0000979,2026-11-13T12:12:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,7,1
+e0000500,2026-11-14T11:30:00Z,like,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0000790,2026-11-13T13:20:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,,1
+e0000579,2026-11-14T10:08:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,6,1
+e0000651,2026-11-13T15:11:00Z,like,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000660,2026-11-14T06:49:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000462,2026-11-13T20:19:00Z,like,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000339,2026-11-13T19:42:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,9,1
+e0000843,2026-11-14T05:44:00Z,like,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0000090,2026-11-14T00:04:00Z,retweet,orig_cooking_3,Any tips for a beginner with #cooking?,author_cooking,h0037,user_river37x,2022-12-31T12:00:00Z,1925,645,18246,0,,0
+e0000271,2026-11-14T06:41:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000578,2026-11-14T10:08:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,4,1
+e0000077,2026-11-14T05:16:00Z,retweet,orig_fitness_6,Any tips for a beginner with #fitness?,author_fitness,h0029,user_sun29x,2024-04-13T12:00:00Z,101,680,5456,0,,0
+e0000741,2026-11-14T08:08:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,2,1
+e0000061,2026-11-13T13:44:00Z,like,orig_gardening_14,"Morning run done, feeling good #fitness",author_gardening,h0024,user_oak24x,2024-09-26T12:00:00Z,4926,286,9109,0,,0
+e0000404,2026-11-13T12:49:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,3,1
+e0000945,2026-11-14T11:52:00Z,reply,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,10,1
+e0000832,2026-11-14T00:38:00Z,like,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000913,2026-11-13T14:30:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,8,1
+e0000337,2026-11-13T17:22:00Z,like,orig_nft_4,Don't miss the next #nft drop!!,author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000024,2026-11-13T21:24:00Z,reply,orig_fitness_14,Finally planted the tomatoes #gardening,author_fitness,h0011,user_sun11x,2022-02-19T12:00:00Z,4805,407,17709,0,3226,0
+e0000926,2026-11-14T10:39:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0001074,2026-11-14T09:33:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,6,1
+e0000266,2026-11-14T04:04:00Z,like,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000218,2026-11-13T17:53:00Z,like,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000482,2026-11-13T16:04:00Z,reply,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,10,1
+e0000678,2026-11-13T12:52:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000845,2026-11-13T18:10:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,5,1
+e0000394,2026-11-14T04:15:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,8,1
+e0001036,2026-11-13T22:26:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,5,1
+e0000474,2026-11-13T14:50:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,1,1
+e0001111,2026-11-14T09:17:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000275,2026-11-14T05:50:00Z,reply,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,1,1
+e0000612,2026-11-13T20:29:00Z,like,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000653,2026-11-14T12:00:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,7,1
+e0000815,2026-11-13T12:52:00Z,reply,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,8,1
+e0000713,2026-11-14T05:25:00Z,like,orig_crypto_11,Don't miss the next #crypto drop!!,author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000018,2026-11-13T23:10:00Z,reply,orig_fitness_5,Finally planted the tomatoes #gardening,author_fitness,h0008,user_sun8x,2018-09-24T12:00:00Z,4723,161,7248,0,1764,0
+e0000742,2026-11-13T22:06:00Z,reply,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,7,1
+e0000631,2026-11-14T05:03:00Z,like,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000821,2026-11-14T00:40:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,10,1
+e0000051,2026-11-13T21:40:00Z,retweet,orig_gardening_1,Golden hour shots from today #photography,author_gardening,h0020,user_oak20x,2022-02-04T12:00:00Z,3302,992,16769,1,,0
+e0000971,2026-11-14T01:46:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000431,2026-11-14T00:41:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000782,2026-11-14T04:25:00Z,reply,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,1,1
+e0000538,2026-11-14T05:58:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,2,1
+e0000816,2026-11-14T04:04:00Z,like,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000419,2026-11-13T14:15:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,9,1
+e0000814,2026-11-13T19:54:00Z,like,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000682,2026-11-13T18:13:00Z,reply,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,3,1
+e0000379,2026-11-13T22:51:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,4,1
+e0000367,2026-11-13T18:33:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,3,1
+e0001090,2026-11-13T14:38:00Z,like,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000216,2026-11-13T22:16:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,3,1
+e0000633,2026-11-14T00:45:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,8,1
+e0000022,2026-11-14T10:22:00Z,reply,orig_fitness_4,Golden hour shots from today #photography,author_fitness,h0009,user_oak9x,2018-11-29T12:00:00Z,2673,576,19687,0,3155,0
+e0000645,2026-11-13T20:24:00Z,like,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000270,2026-11-13T19:10:00Z,like,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000496,2026-11-13T22:22:00Z,reply,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,1,1
+e0000881,2026-11-14T01:22:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000483,2026-11-13T21:28:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0000229,2026-11-14T10:13:00Z,reply,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,7,1
+e0000997,2026-11-14T10:39:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,1,1
+e0000582,2026-11-13T22:55:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,5,1
+e0000925,2026-11-13T17:12:00Z,like,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000617,2026-11-14T03:05:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,8,1
+e0000093,2026-11-14T05:04:00Z,like,orig_gardening_0,Any tips for a beginner with #gardening?,author_gardening,h0040,user_river40x,2024-07-23T12:00:00Z,3968,365,6845,0,,0
+e0000887,2026-11-13T15:24:00Z,reply,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,6,1
+e0000822,2026-11-13T19:34:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,7,1
+e0000366,2026-11-13T18:38:00Z,like,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000189,2026-11-13T21:20:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000327,2026-11-13T17:53:00Z,reply,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,1,1
+e0000603,2026-11-14T05:15:00Z,like,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000729,2026-11-13T14:13:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000109,2026-11-14T03:35:00Z,like,orig_photography_11,"Morning run done, feeling good #fitness",author_photography,h0047,user_blue47x,2019-08-27T12:00:00Z,4981,585,11982,0,,0
+e0001002,2026-11-13T13:26:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,6,1
+e0000140,2026-11-13T19:11:00Z,retweet,orig_photography_3,Any tips for a beginner with #photography?,author_photography,h0059,user_blue59x,2019-03-07T12:00:00Z,4386,997,9006,0,,0
+e0001098,2026-11-14T01:33:00Z,reply,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,7,1
+e0001031,2026-11-13T21:40:00Z,like,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000145,2026-11-14T09:50:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,3,1
+e0000159,2026-11-14T09:46:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000452,2026-11-13T16:15:00Z,reply,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,2,1
+e0000909,2026-11-14T05:15:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,5,1
+e0001128,2026-11-14T08:17:00Z,reply,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,2,1
+e0000135,2026-11-14T01:38:00Z,reply,orig_cooking_1,Trying a new recipe tonight #cooking,author_cooking,h0056,user_sun56x,2021-10-07T12:00:00Z,900,619,15316,0,2382,0
+e0000489,2026-11-13T13:05:00Z,reply,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,4,1
+e0000959,2026-11-13T15:05:00Z,reply,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,4,1
+e0000165,2026-11-13T23:27:00Z,like,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000833,2026-11-14T09:51:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,3,1
+e0000170,2026-11-13T19:15:00Z,reply,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,1,1
+e0000114,2026-11-14T03:59:00Z,reply,orig_cooking_7,Any tips for a beginner with #cooking?,author_cooking,h0049,user_oak49x,2023-04-24T12:00:00Z,1695,945,7415,1,2064,0
+e0000977,2026-11-14T05:53:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,10,1
+e0000514,2026-11-13T17:28:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,3,1
+e0000824,2026-11-13T15:48:00Z,like,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000673,2026-11-13T22:04:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,10,1
+e0000408,2026-11-13T21:18:00Z,like,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0001007,2026-11-13T19:51:00Z,like,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000467,2026-11-13T23:52:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,10,1
+e0001057,2026-11-14T07:19:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000417,2026-11-14T04:59:00Z,like,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000233,2026-11-13T22:09:00Z,like,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0001116,2026-11-13T13:08:00Z,reply,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,2,1
+e0000728,2026-11-14T03:48:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,8,1
+e0001135,2026-11-13T15:57:00Z,like,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000264,2026-11-13T22:31:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,10,1
+e0000808,2026-11-14T06:02:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,5,1
+e0000553,2026-11-14T04:27:00Z,reply,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,10,1
+e0000406,2026-11-14T08:40:00Z,like,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000400,2026-11-14T08:17:00Z,like,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000848,2026-11-14T07:56:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,1,1
+e0001030,2026-11-14T02:48:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,2,1
+e0000192,2026-11-13T14:31:00Z,like,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000970,2026-11-13T13:19:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,4,1
+e0000760,2026-11-13T12:17:00Z,reply,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,2,1
+e0001051,2026-11-14T08:54:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,1,1
+e0000562,2026-11-13T23:00:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,6,1
+e0000957,2026-11-14T03:07:00Z,like,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000699,2026-11-13T22:21:00Z,reply,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,2,1
+e0000805,2026-11-13T20:34:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,3,1
+e0000099,2026-11-13T21:11:00Z,like,orig_photography_14,Golden hour shots from today #photography,author_photography,h0042,user_oak42x,2022-04-30T12:00:00Z,1711,445,7196,0,,0
+e0000703,2026-11-13T18:23:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,4,1
+e0000969,2026-11-13T12:37:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,6,1
+e0001062,2026-11-13T12:57:00Z,like,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0001059,2026-11-14T05:16:00Z,like,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000012,2026-11-14T02:07:00Z,like,orig_fitness_7,Trying a new recipe tonight #cooking,author_fitness,h0006,user_sun6x,2023-04-04T12:00:00Z,4776,415,18858,0,,0
+e0000576,2026-11-13T20:19:00Z,like,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,,1
+e0001058,2026-11-13T23:41:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,3,1
+e0000627,2026-11-14T08:40:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,2,1
+e0000991,2026-11-14T10:43:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,9,1
+e0000374,2026-11-14T06:39:00Z,reply,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,10,1
+e0000543,2026-11-14T06:51:00Z,reply,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,9,1
+e0000965,2026-11-13T19:02:00Z,reply,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,6,1
+e0000252,2026-11-13T15:31:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,5,1
+e0000522,2026-11-13T21:29:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,4,1
+e0001010,2026-11-14T04:28:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,6,1
+e0000643,2026-11-13T21:27:00Z,like,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000983,2026-11-13T23:45:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,6,1
+e0000320,2026-11-14T07:20:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,2,1
+e0000376,2026-11-14T09:53:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000711,2026-11-14T01:08:00Z,like,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000596,2026-11-14T05:08:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,2,1
+e0000656,2026-11-14T09:25:00Z,like,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0001003,2026-11-13T12:31:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,1,1
+e0000584,2026-11-13T23:02:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,5,1
+e0000634,2026-11-13T14:40:00Z,reply,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,2,1
+e0000353,2026-11-13T22:53:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,9,1
+e0000341,2026-11-13T23:58:00Z,reply,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,7,1
+e0000838,2026-11-14T04:07:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000744,2026-11-13T21:18:00Z,like,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000516,2026-11-14T00:02:00Z,reply,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,3,1
+e0000859,2026-11-13T21:28:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,4,1
+e0000587,2026-11-13T17:02:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,6,1
+e0000242,2026-11-14T07:57:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,10,1
+e0000781,2026-11-14T03:51:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,6,1
+e0000112,2026-11-14T03:30:00Z,retweet,orig_fitness_6,Golden hour shots from today #photography,author_fitness,h0048,user_blue48x,2018-09-22T12:00:00Z,275,114,3867,0,,0
+e0000551,2026-11-13T17:28:00Z,reply,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,6,1
+e0000852,2026-11-14T01:16:00Z,like,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0000963,2026-11-13T17:06:00Z,like,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000847,2026-11-13T14:31:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,4,1
+e0000108,2026-11-14T10:35:00Z,like,orig_photography_6,Finally planted the tomatoes #gardening,author_photography,h0046,user_blue46x,2023-12-03T12:00:00Z,1492,230,1402,0,,0
+e0000387,2026-11-14T08:05:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,7,1
+e0000307,2026-11-13T19:11:00Z,like,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000608,2026-11-14T04:15:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,3,1
+e0000796,2026-11-13T23:15:00Z,reply,orig_nft_8,Don't miss the next #nft drop!!,author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,4,1
+e0000628,2026-11-14T00:20:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000223,2026-11-13T12:56:00Z,reply,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,6,1
+e0000477,2026-11-14T10:31:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,3,1
+e0000995,2026-11-14T06:21:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,9,1
+e0000162,2026-11-13T14:27:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000332,2026-11-13T21:12:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,2,1
+e0000569,2026-11-13T14:54:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,10,1
+e0000568,2026-11-14T03:15:00Z,like,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,,1
+e0000199,2026-11-13T12:39:00Z,reply,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,8,1
+e0000558,2026-11-13T18:10:00Z,like,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,,1
+e0000280,2026-11-14T04:26:00Z,like,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000302,2026-11-14T05:52:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,3,1
+e0000016,2026-11-13T19:25:00Z,reply,orig_cooking_6,"Morning run done, feeling good #fitness",author_cooking,h0007,user_sun7x,2022-11-05T12:00:00Z,4864,684,6656,0,1007,0
+e0000920,2026-11-14T03:19:00Z,reply,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,8,1
+e0001011,2026-11-13T23:29:00Z,like,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000915,2026-11-13T12:52:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000006,2026-11-13T12:40:00Z,reply,orig_photography_4,Golden hour shots from today #photography,author_photography,h0004,user_sun4x,2022-05-15T12:00:00Z,4827,699,13498,1,374,0
+e0000589,2026-11-13T21:01:00Z,reply,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,5,1
+e0000043,2026-11-14T11:58:00Z,like,orig_photography_12,Trying a new recipe tonight #cooking,author_photography,h0016,user_river16x,2023-10-28T12:00:00Z,3983,813,2629,1,,0
+e0000194,2026-11-14T00:49:00Z,like,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0001132,2026-11-13T16:00:00Z,reply,orig_crypto_3,Don't miss the next #crypto drop!!,author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,7,1
+e0000418,2026-11-13T12:01:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,4,1
+e0000183,2026-11-14T05:33:00Z,reply,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,4,1
+e0000882,2026-11-13T18:19:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,2,1
+e0000245,2026-11-13T14:01:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,9,1
+e0000933,2026-11-14T00:02:00Z,like,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000288,2026-11-14T07:14:00Z,like,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000791,2026-11-14T01:01:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,6,1
+e0000325,2026-11-13T16:51:00Z,like,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000539,2026-11-14T05:18:00Z,like,orig_nft_8,Don't miss the next #nft drop!!,author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000898,2026-11-14T03:55:00Z,like,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000153,2026-11-13T14:29:00Z,reply,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,10,1
+e0001001,2026-11-13T22:05:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,7,1
+e0000361,2026-11-13T18:05:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0001082,2026-11-14T00:08:00Z,reply,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,6,1
+e0000498,2026-11-13T15:30:00Z,like,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0001046,2026-11-14T10:43:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,4,1
+e0000155,2026-11-13T22:39:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000521,2026-11-13T21:12:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,5,1
+e0000369,2026-11-13T14:17:00Z,like,orig_crypto_11,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000910,2026-11-14T00:00:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,3,1
+e0001119,2026-11-13T14:59:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000767,2026-11-14T11:40:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,6,1
+e0000445,2026-11-14T06:24:00Z,like,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0001102,2026-11-14T09:04:00Z,reply,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,2,1
+e0000228,2026-11-14T04:49:00Z,like,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000005,2026-11-14T04:08:00Z,like,orig_fitness_11,Finally planted the tomatoes #gardening,author_fitness,h0003,user_oak3x,2023-11-09T12:00:00Z,584,946,19028,0,,0
+e0000939,2026-11-14T05:33:00Z,like,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000938,2026-11-13T12:03:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,1,1
+e0000875,2026-11-14T10:22:00Z,like,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0001032,2026-11-14T06:45:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,7,1
+e0000885,2026-11-13T15:50:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,10,1
+e0001131,2026-11-13T18:20:00Z,reply,orig_crypto_1,"Huge #crypto gains this week, join now",author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,9,1
+e0000172,2026-11-14T04:41:00Z,reply,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,3,1
+e0000285,2026-11-14T07:46:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,6,1
+e0000951,2026-11-14T07:04:00Z,like,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000895,2026-11-14T10:58:00Z,like,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000328,2026-11-13T13:10:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,7,1
+e0000666,2026-11-13T19:05:00Z,like,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000273,2026-11-13T16:39:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,10,1
+e0000141,2026-11-13T17:52:00Z,like,orig_gardening_0,Trying a new recipe tonight #cooking,author_gardening,h0059,user_blue59x,2019-03-07T12:00:00Z,4386,997,9006,0,,0
+e0000345,2026-11-14T08:17:00Z,like,orig_nft_8,Don't miss the next #nft drop!!,author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0001061,2026-11-14T10:01:00Z,like,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000530,2026-11-14T00:00:00Z,reply,orig_crypto_1,"Huge #crypto gains this week, join now",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,5,1
+e0000725,2026-11-14T03:52:00Z,reply,orig_nft_12,"Best #nft signals, follow me #nft",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,7,1
+e0000637,2026-11-13T12:48:00Z,like,orig_nft_9,"Huge #nft gains this week, join now",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000067,2026-11-13T19:49:00Z,retweet,orig_gardening_0,"Morning run done, feeling good #fitness",author_gardening,h0027,user_oak27x,2020-05-25T12:00:00Z,948,593,13621,1,,0
+e0001137,2026-11-14T01:48:00Z,reply,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,8,1
+e0001066,2026-11-13T19:31:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,9,1
+e0000677,2026-11-14T02:57:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000851,2026-11-13T21:44:00Z,like,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0000708,2026-11-14T06:02:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,5,1
+e0000186,2026-11-13T20:10:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0001006,2026-11-13T19:05:00Z,like,orig_nft_9,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000191,2026-11-13T14:34:00Z,reply,orig_crypto_11,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,7,1
+e0000274,2026-11-13T20:45:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,7,1
+e0000239,2026-11-14T07:16:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,1,1
+e0000842,2026-11-14T04:28:00Z,like,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000865,2026-11-14T00:21:00Z,reply,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,6,1
+e0000286,2026-11-14T07:07:00Z,reply,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,3,1
+e0000413,2026-11-14T00:13:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,6,1
+e0000036,2026-11-13T19:00:00Z,like,orig_fitness_4,"Morning run done, feeling good #fitness",author_fitness,h0015,user_oak15x,2020-12-11T12:00:00Z,4850,916,15448,1,,0
+e0000536,2026-11-13T17:34:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,3,1
+e0000759,2026-11-13T13:37:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000573,2026-11-14T09:47:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,8,1
+e0000045,2026-11-13T12:10:00Z,reply,orig_fitness_12,Any tips for a beginner with #fitness?,author_fitness,h0017,user_river17x,2017-01-02T12:00:00Z,4834,797,15102,0,2666,0
+e0000128,2026-11-13T23:20:00Z,reply,orig_fitness_4,Any tips for a beginner with #fitness?,author_fitness,h0054,user_blue54x,2023-03-12T12:00:00Z,1259,584,4443,0,2639,0
+e0000230,2026-11-13T22:14:00Z,like,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000439,2026-11-13T18:57:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,4,1
+e0000806,2026-11-14T06:52:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0001121,2026-11-14T04:13:00Z,reply,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,2,1
+e0000671,2026-11-14T03:08:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,7,1
+e0001080,2026-11-13T18:35:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,5,1
+e0000310,2026-11-14T11:51:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,6,1
+e0000157,2026-11-14T07:10:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,3,1
+e0000390,2026-11-13T13:20:00Z,reply,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,7,1
+e0000598,2026-11-14T10:04:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,7,1
+e0000740,2026-11-14T00:35:00Z,like,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000177,2026-11-14T07:41:00Z,like,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0001067,2026-11-13T12:51:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,5,1
+e0001045,2026-11-13T21:35:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0001024,2026-11-14T04:44:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000546,2026-11-14T09:03:00Z,like,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,,1
+e0001055,2026-11-13T15:28:00Z,like,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000453,2026-11-13T20:57:00Z,reply,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,9,1
+e0000853,2026-11-14T02:30:00Z,reply,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,8,1
+e0000511,2026-11-13T17:56:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,5,1
+e0000243,2026-11-14T11:32:00Z,reply,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,7,1
+e0000221,2026-11-14T06:23:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,8,1
+e0000081,2026-11-13T13:00:00Z,retweet,orig_gardening_3,Golden hour shots from today #photography,author_gardening,h0032,user_oak32x,2023-07-31T12:00:00Z,3917,591,16354,0,,0
+e0000306,2026-11-14T10:07:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,9,1
+e0000794,2026-11-14T01:17:00Z,reply,orig_nft_9,"Huge #nft gains this week, join now",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,4,1
+e0000058,2026-11-14T10:09:00Z,reply,orig_cooking_3,Any tips for a beginner with #cooking?,author_cooking,h0022,user_river22x,2018-09-14T12:00:00Z,3502,467,12966,0,659,0
+e0001140,2026-11-13T21:56:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,5,1
+e0000055,2026-11-14T04:08:00Z,like,orig_gardening_7,"Morning run done, feeling good #fitness",author_gardening,h0022,user_river22x,2018-09-14T12:00:00Z,3502,467,12966,0,,0
+e0000212,2026-11-14T00:56:00Z,like,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000837,2026-11-13T16:00:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,8,1
+e0000902,2026-11-14T11:57:00Z,reply,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,1,1
+e0000935,2026-11-13T21:01:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,10,1
+e0000731,2026-11-13T17:57:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,2,1
+e0000506,2026-11-14T11:22:00Z,reply,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,6,1
+e0000323,2026-11-13T22:30:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,10,1
+e0000672,2026-11-13T19:53:00Z,like,orig_nft_4,Don't miss the next #nft drop!!,author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000257,2026-11-13T15:29:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000773,2026-11-14T06:20:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,5,1
+e0001109,2026-11-13T22:06:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000730,2026-11-14T11:23:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,1,1
+e0001044,2026-11-14T04:13:00Z,reply,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,6,1
+e0000246,2026-11-14T11:41:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,1,1
+e0000176,2026-11-13T21:24:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,4,1
+e0000669,2026-11-13T22:56:00Z,reply,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,10,1
+e0000866,2026-11-14T12:00:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,7,1
+e0000610,2026-11-14T00:38:00Z,reply,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,5,1
+e0000458,2026-11-14T07:25:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000118,2026-11-13T18:48:00Z,like,orig_fitness_14,Any tips for a beginner with #fitness?,author_fitness,h0050,user_river50x,2022-06-27T12:00:00Z,4205,346,19716,0,,0
+e0000532,2026-11-14T05:08:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,1,1
+e0000626,2026-11-13T18:30:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000071,2026-11-13T12:28:00Z,retweet,orig_cooking_5,"Morning run done, feeling good #fitness",author_cooking,h0028,user_blue28x,2024-02-13T12:00:00Z,3709,266,4102,0,,0
+e0001113,2026-11-14T01:46:00Z,like,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000111,2026-11-13T17:14:00Z,reply,orig_cooking_13,Golden hour shots from today #photography,author_cooking,h0048,user_blue48x,2018-09-22T12:00:00Z,275,114,3867,0,2515,0
+e0000399,2026-11-13T12:18:00Z,like,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000375,2026-11-13T18:10:00Z,reply,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,2,1
+e0000444,2026-11-14T09:52:00Z,like,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000466,2026-11-13T18:06:00Z,reply,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,4,1
+e0000726,2026-11-14T04:21:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,7,1
+e0000425,2026-11-14T06:14:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000931,2026-11-13T21:11:00Z,reply,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,4,1
+e0000899,2026-11-14T04:05:00Z,like,orig_nft_9,"Huge #nft gains this week, join now",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000318,2026-11-14T05:54:00Z,like,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000930,2026-11-14T05:50:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,8,1
+e0000659,2026-11-13T12:41:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,1,1
+e0000095,2026-11-13T17:47:00Z,retweet,orig_photography_1,Any tips for a beginner with #photography?,author_photography,h0040,user_river40x,2024-07-23T12:00:00Z,3968,365,6845,0,,0
+e0000202,2026-11-13T12:58:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000625,2026-11-13T16:16:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,2,1
+e0000619,2026-11-13T16:36:00Z,reply,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,8,1
+e0000721,2026-11-13T12:37:00Z,like,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000648,2026-11-13T17:38:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,8,1
+e0000219,2026-11-14T02:59:00Z,reply,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,2,1
+e0000384,2026-11-13T16:03:00Z,like,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000509,2026-11-14T04:09:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,10,1
+e0000550,2026-11-14T09:49:00Z,reply,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,7,1
+e0000282,2026-11-13T13:56:00Z,like,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000886,2026-11-14T08:51:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,3,1
+e0001069,2026-11-14T06:24:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,8,1
+e0000017,2026-11-13T12:45:00Z,reply,orig_cooking_7,Finally planted the tomatoes #gardening,author_cooking,h0007,user_sun7x,2022-11-05T12:00:00Z,4864,684,6656,0,74,0
+e0000513,2026-11-14T08:56:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,4,1
+e0001022,2026-11-13T18:34:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,8,1
+e0000972,2026-11-14T11:40:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,10,1
+e0000143,2026-11-14T05:17:00Z,reply,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,10,1
+e0000835,2026-11-13T16:53:00Z,like,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000604,2026-11-13T12:50:00Z,reply,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,3,1
+e0000934,2026-11-14T10:52:00Z,like,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000864,2026-11-13T20:00:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,1,1
+e0000968,2026-11-13T20:22:00Z,reply,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,1,1
+e0000333,2026-11-13T13:54:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,2,1
+e0000295,2026-11-13T18:29:00Z,reply,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,2,1
+e0000132,2026-11-14T04:27:00Z,like,orig_fitness_2,Trying a new recipe tonight #cooking,author_fitness,h0055,user_oak55x,2021-03-20T12:00:00Z,969,673,2361,0,,0
+e0001139,2026-11-13T18:39:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,6,1
+e0000949,2026-11-13T23:22:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,5,1
+e0000316,2026-11-14T05:21:00Z,like,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000771,2026-11-14T02:51:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,2,1
+e0000402,2026-11-13T22:23:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000087,2026-11-14T01:59:00Z,like,orig_gardening_3,Golden hour shots from today #photography,author_gardening,h0034,user_blue34x,2017-02-10T12:00:00Z,4329,123,7224,0,,0
+e0000571,2026-11-13T19:03:00Z,reply,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,7,1
+e0000127,2026-11-13T16:13:00Z,retweet,orig_fitness_11,Golden hour shots from today #photography,author_fitness,h0053,user_sun53x,2019-02-23T12:00:00Z,3705,895,6500,0,,0
+e0000386,2026-11-13T23:04:00Z,reply,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,3,1
+e0000352,2026-11-13T23:58:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,8,1
+e0001035,2026-11-13T23:13:00Z,like,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000658,2026-11-13T19:00:00Z,like,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000879,2026-11-13T20:14:00Z,reply,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,1,1
+e0000196,2026-11-14T05:11:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,4,1
+e0000890,2026-11-14T05:38:00Z,like,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000524,2026-11-14T07:21:00Z,like,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000161,2026-11-14T08:11:00Z,reply,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,4,1
+e0000515,2026-11-13T15:19:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,3,1
+e0000955,2026-11-14T09:16:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000862,2026-11-13T20:08:00Z,like,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0000942,2026-11-13T16:54:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,6,1
+e0000976,2026-11-14T00:04:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,1,1
+e0000507,2026-11-14T08:56:00Z,like,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0001142,2026-11-13T17:19:00Z,reply,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,4,1
+e0000438,2026-11-14T08:21:00Z,reply,orig_nft_9,Don't miss the next #nft drop!!,author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,4,1
+e0000455,2026-11-14T05:36:00Z,like,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000735,2026-11-14T04:53:00Z,reply,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,1,1
+e0000065,2026-11-13T21:15:00Z,reply,orig_photography_1,"Morning run done, feeling good #fitness",author_photography,h0026,user_sun26x,2023-06-19T12:00:00Z,3840,991,18826,0,3208,0
+e0000686,2026-11-13T13:05:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,3,1
+e0000122,2026-11-14T02:37:00Z,retweet,orig_fitness_14,Finally planted the tomatoes #gardening,author_fitness,h0051,user_oak51x,2018-10-08T12:00:00Z,1173,162,12092,0,,0
+e0000092,2026-11-13T22:03:00Z,reply,orig_gardening_10,Trying a new recipe tonight #cooking,author_gardening,h0039,user_blue39x,2022-05-01T12:00:00Z,4340,604,12151,0,3413,0
+e0000638,2026-11-13T18:30:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000770,2026-11-14T08:58:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,7,1
+e0001118,2026-11-14T09:41:00Z,like,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000961,2026-11-13T12:44:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000654,2026-11-13T13:35:00Z,reply,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,4,1
+e0000982,2026-11-13T22:52:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,10,1
+e0000290,2026-11-13T19:43:00Z,like,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000456,2026-11-13T20:22:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,8,1
+e0000804,2026-11-14T10:04:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,3,1
+e0000448,2026-11-13T15:13:00Z,like,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000220,2026-11-14T10:01:00Z,reply,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,8,1
+e0000121,2026-11-13T15:10:00Z,reply,orig_gardening_12,Finally planted the tomatoes #gardening,author_gardening,h0051,user_oak51x,2018-10-08T12:00:00Z,1173,162,12092,0,328,0
+e0000299,2026-11-13T18:41:00Z,reply,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,1,1
+e0000723,2026-11-14T03:49:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000429,2026-11-13T20:49:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,2,1
+e0001043,2026-11-14T04:45:00Z,reply,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,8,1
+e0001018,2026-11-13T23:54:00Z,reply,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,6,1
+e0000795,2026-11-14T06:22:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,7,1
+e0000989,2026-11-13T15:54:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000371,2026-11-13T16:00:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0001039,2026-11-14T05:35:00Z,like,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000691,2026-11-14T09:19:00Z,like,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000356,2026-11-13T15:15:00Z,like,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000447,2026-11-13T18:22:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,2,1
+e0000602,2026-11-14T06:41:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,1,1
+e0000248,2026-11-14T05:37:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,10,1
+e0000206,2026-11-13T21:54:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0001092,2026-11-13T21:06:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0001070,2026-11-13T14:41:00Z,reply,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,2,1
+e0001037,2026-11-13T23:04:00Z,reply,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,7,1
+e0001049,2026-11-13T22:47:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,8,1
+e0001008,2026-11-13T13:29:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,8,1
+e0000641,2026-11-13T12:42:00Z,like,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000962,2026-11-13T17:55:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,8,1
+e0000783,2026-11-13T23:10:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,,1
+e0000680,2026-11-13T22:33:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000465,2026-11-13T12:47:00Z,like,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000253,2026-11-13T16:23:00Z,reply,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,1,1
+e0000129,2026-11-14T00:43:00Z,reply,orig_fitness_12,Any tips for a beginner with #fitness?,author_fitness,h0055,user_oak55x,2021-03-20T12:00:00Z,969,673,2361,0,658,0
+e0000086,2026-11-14T11:51:00Z,like,orig_cooking_7,Golden hour shots from today #photography,author_cooking,h0034,user_blue34x,2017-02-10T12:00:00Z,4329,123,7224,0,,0
+e0000411,2026-11-14T11:59:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,10,1
+e0000984,2026-11-14T06:37:00Z,reply,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,9,1
+e0000094,2026-11-13T22:05:00Z,like,orig_photography_1,Any tips for a beginner with #photography?,author_photography,h0040,user_river40x,2024-07-23T12:00:00Z,3968,365,6845,0,,0
+e0000716,2026-11-14T09:04:00Z,like,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0001106,2026-11-14T10:45:00Z,reply,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,4,1
+e0000213,2026-11-14T11:30:00Z,like,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000166,2026-11-14T02:11:00Z,reply,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,9,1
+e0001034,2026-11-14T10:10:00Z,like,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000412,2026-11-14T10:24:00Z,like,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000358,2026-11-14T01:46:00Z,like,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000096,2026-11-13T13:13:00Z,reply,orig_photography_4,"Morning run done, feeling good #fitness",author_photography,h0041,user_oak41x,2021-01-04T12:00:00Z,2963,473,3139,0,1738,0
+e0000110,2026-11-14T10:42:00Z,retweet,orig_gardening_10,Trying a new recipe tonight #cooking,author_gardening,h0047,user_blue47x,2019-08-27T12:00:00Z,4981,585,11982,0,,0
+e0000454,2026-11-14T05:05:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,4,1
+e0000164,2026-11-14T11:18:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,6,1
+e0000554,2026-11-13T18:00:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,6,1
+e0000478,2026-11-13T20:01:00Z,reply,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,8,1
+e0000695,2026-11-13T14:31:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,8,1
+e0001110,2026-11-13T16:23:00Z,reply,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,4,1
+e0000896,2026-11-14T04:02:00Z,like,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000936,2026-11-13T18:33:00Z,like,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000717,2026-11-14T09:35:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,10,1
+e0000007,2026-11-14T05:14:00Z,retweet,orig_cooking_1,Any tips for a beginner with #cooking?,author_cooking,h0004,user_sun4x,2022-05-15T12:00:00Z,4827,699,13498,1,,0
+e0000314,2026-11-14T04:22:00Z,like,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000207,2026-11-13T19:59:00Z,like,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0001048,2026-11-13T15:34:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,7,1
+e0001089,2026-11-14T01:41:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000021,2026-11-13T22:36:00Z,like,orig_fitness_6,"Morning run done, feeling good #fitness",author_fitness,h0008,user_sun8x,2018-09-24T12:00:00Z,4723,161,7248,0,,0
+e0000714,2026-11-13T22:54:00Z,like,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000712,2026-11-13T18:40:00Z,reply,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,9,1
+e0000249,2026-11-14T09:08:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0001103,2026-11-13T20:15:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,5,1
+e0000381,2026-11-14T10:30:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,4,1
+e0001122,2026-11-13T23:05:00Z,like,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000987,2026-11-14T10:02:00Z,like,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000188,2026-11-13T15:24:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,1,1
+e0000901,2026-11-14T02:42:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0001078,2026-11-13T15:30:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,9,1
+e0000258,2026-11-14T03:36:00Z,like,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000283,2026-11-14T11:49:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,2,1
+e0001081,2026-11-14T04:22:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,5,1
+e0000850,2026-11-14T09:44:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,7,1
+e0000693,2026-11-13T18:50:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,3,1
+e0000149,2026-11-14T02:56:00Z,like,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000993,2026-11-14T01:29:00Z,reply,orig_crypto_1,Don't miss the next #crypto drop!!,author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,2,1
+e0000403,2026-11-13T14:33:00Z,like,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000700,2026-11-13T17:52:00Z,like,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000990,2026-11-14T04:25:00Z,like,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000322,2026-11-13T22:44:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000190,2026-11-13T12:49:00Z,like,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000133,2026-11-14T10:23:00Z,reply,orig_photography_2,Golden hour shots from today #photography,author_photography,h0056,user_sun56x,2021-10-07T12:00:00Z,900,619,15316,0,2159,0
+e0000336,2026-11-13T22:08:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000535,2026-11-13T19:22:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,2,1
+e0000649,2026-11-14T10:35:00Z,like,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,,1
+e0000449,2026-11-14T01:52:00Z,like,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000187,2026-11-13T18:56:00Z,like,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000100,2026-11-13T22:09:00Z,like,orig_gardening_9,Golden hour shots from today #photography,author_gardening,h0042,user_oak42x,2022-04-30T12:00:00Z,1711,445,7196,0,,0
+e0000265,2026-11-13T22:52:00Z,like,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000056,2026-11-14T08:17:00Z,reply,orig_gardening_9,"Morning run done, feeling good #fitness",author_gardening,h0022,user_river22x,2018-09-14T12:00:00Z,3502,467,12966,0,3174,0
+e0000002,2026-11-13T16:57:00Z,reply,orig_cooking_0,Golden hour shots from today #photography,author_cooking,h0000,user_blue0x,2021-03-29T12:00:00Z,3334,766,2082,1,3483,0
+e0000235,2026-11-13T17:27:00Z,like,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000854,2026-11-13T12:40:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,3,1
+e0000793,2026-11-14T10:47:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,2,1
+e0000222,2026-11-13T16:48:00Z,reply,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,6,1
+e0000124,2026-11-14T01:07:00Z,like,orig_fitness_5,Any tips for a beginner with #fitness?,author_fitness,h0052,user_oak52x,2017-06-11T12:00:00Z,4209,233,17926,0,,0
+e0000499,2026-11-14T07:21:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,10,1
+e0000147,2026-11-13T13:38:00Z,reply,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,8,1
+e0000520,2026-11-13T23:11:00Z,reply,orig_crypto_10,"Best #crypto signals, follow me #crypto",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,7,1
+e0000471,2026-11-14T02:07:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,3,1
+e0000125,2026-11-14T06:30:00Z,reply,orig_cooking_10,Finally planted the tomatoes #gardening,author_cooking,h0052,user_oak52x,2017-06-11T12:00:00Z,4209,233,17926,0,805,0
+e0000839,2026-11-14T07:17:00Z,reply,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,8,1
+e0000042,2026-11-13T12:05:00Z,like,orig_gardening_10,Any tips for a beginner with #gardening?,author_gardening,h0016,user_river16x,2023-10-28T12:00:00Z,3983,813,2629,1,,0
+e0000718,2026-11-13T20:15:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,10,1
+e0000555,2026-11-13T13:25:00Z,reply,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,3,1
+e0000311,2026-11-14T03:39:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,2,1
+e0000138,2026-11-13T20:37:00Z,like,orig_cooking_1,Finally planted the tomatoes #gardening,author_cooking,h0057,user_oak57x,2024-02-29T12:00:00Z,2767,727,17065,0,,0
+e0000389,2026-11-13T20:04:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,4,1
+e0000160,2026-11-14T09:45:00Z,like,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000073,2026-11-14T08:21:00Z,like,orig_cooking_7,Trying a new recipe tonight #cooking,author_cooking,h0028,user_blue28x,2024-02-13T12:00:00Z,3709,266,4102,0,,0
+e0000338,2026-11-13T22:49:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,10,1
+e0000335,2026-11-14T06:57:00Z,reply,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,8,1
+e0001047,2026-11-13T19:39:00Z,like,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000765,2026-11-13T20:17:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000698,2026-11-13T23:14:00Z,reply,orig_crypto_1,"Huge #crypto gains this week, join now",author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,9,1
+e0000561,2026-11-13T18:14:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,3,1
+e0000407,2026-11-14T04:32:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0001065,2026-11-13T13:32:00Z,like,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0001105,2026-11-13T20:34:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000126,2026-11-14T02:59:00Z,like,orig_fitness_1,"Morning run done, feeling good #fitness",author_fitness,h0052,user_oak52x,2017-06-11T12:00:00Z,4209,233,17926,0,,0
+e0000856,2026-11-13T22:34:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,9,1
+e0000917,2026-11-14T05:47:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,9,1
+e0000278,2026-11-13T16:44:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,2,1
+e0000541,2026-11-13T17:26:00Z,like,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000020,2026-11-14T11:36:00Z,retweet,orig_photography_14,Trying a new recipe tonight #cooking,author_photography,h0008,user_sun8x,2018-09-24T12:00:00Z,4723,161,7248,0,,0
+e0000380,2026-11-14T10:31:00Z,reply,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,7,1
+e0000296,2026-11-14T07:56:00Z,like,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000572,2026-11-13T20:14:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,10,1
+e0000998,2026-11-14T05:29:00Z,like,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,,1
+e0000460,2026-11-14T08:50:00Z,reply,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,10,1
+e0000158,2026-11-13T14:03:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,1,1
+e0000355,2026-11-13T16:09:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,7,1
+e0000395,2026-11-14T03:06:00Z,like,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000529,2026-11-14T06:49:00Z,like,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000450,2026-11-14T07:20:00Z,like,orig_nft_4,Don't miss the next #nft drop!!,author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000867,2026-11-14T03:20:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,6,1
+e0000104,2026-11-13T19:16:00Z,reply,orig_gardening_12,Trying a new recipe tonight #cooking,author_gardening,h0044,user_sun44x,2023-12-03T12:00:00Z,3282,901,7031,0,505,0
+e0000798,2026-11-13T20:25:00Z,like,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000146,2026-11-14T11:47:00Z,like,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000950,2026-11-14T01:10:00Z,reply,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,5,1
+e0000630,2026-11-14T06:57:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000334,2026-11-13T18:28:00Z,like,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000789,2026-11-13T14:02:00Z,like,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,,1
+e0000876,2026-11-14T04:42:00Z,like,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000542,2026-11-14T02:50:00Z,like,orig_nft_6,"Best #nft signals, follow me #nft",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000736,2026-11-13T13:49:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,8,1
+e0000830,2026-11-14T08:59:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,1,1
+e0000764,2026-11-13T22:32:00Z,reply,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,2,1
+e0000232,2026-11-14T01:48:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,4,1
+e0000391,2026-11-14T08:51:00Z,like,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000751,2026-11-14T10:48:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,9,1
+e0001040,2026-11-14T01:59:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000269,2026-11-13T18:21:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,10,1
+e0001077,2026-11-14T02:14:00Z,like,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000664,2026-11-13T17:18:00Z,reply,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,9,1
+e0000964,2026-11-13T19:59:00Z,like,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000251,2026-11-13T13:48:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,1,1
+e0000810,2026-11-13T17:54:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,4,1
+e0000784,2026-11-13T18:12:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,9,1
+e0000062,2026-11-13T23:05:00Z,retweet,orig_photography_13,Trying a new recipe tonight #cooking,author_photography,h0024,user_oak24x,2024-09-26T12:00:00Z,4926,286,9109,0,,0
+e0000719,2026-11-13T23:54:00Z,reply,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,4,1
+e0000727,2026-11-14T05:11:00Z,like,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000329,2026-11-13T20:31:00Z,like,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000152,2026-11-14T00:51:00Z,like,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000015,2026-11-13T18:39:00Z,retweet,orig_fitness_4,Finally planted the tomatoes #gardening,author_fitness,h0007,user_sun7x,2022-11-05T12:00:00Z,4864,684,6656,0,,0
+e0000683,2026-11-14T09:45:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,4,1
+e0000297,2026-11-14T03:52:00Z,like,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000722,2026-11-14T10:10:00Z,like,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000877,2026-11-14T07:58:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,4,1
+e0000547,2026-11-13T16:57:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,1,1
+e0000841,2026-11-13T17:49:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,9,1
+e0000878,2026-11-13T15:01:00Z,reply,orig_crypto_1,"Huge #crypto gains this week, join now",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,4,1
+e0000490,2026-11-14T01:41:00Z,reply,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,7,1
+e0000752,2026-11-13T17:40:00Z,reply,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,6,1
+e0000639,2026-11-14T04:05:00Z,like,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000150,2026-11-14T01:55:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,,1
+e0000911,2026-11-13T21:30:00Z,reply,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,7,1
+e0000745,2026-11-13T20:56:00Z,like,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000650,2026-11-14T06:51:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,5,1
+e0000566,2026-11-14T02:06:00Z,reply,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,3,1
+e0000472,2026-11-13T17:38:00Z,like,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,,1
+e0001012,2026-11-14T11:53:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,8,1
+e0000030,2026-11-14T09:27:00Z,like,orig_cooking_3,Finally planted the tomatoes #gardening,author_cooking,h0013,user_blue13x,2020-03-08T12:00:00Z,2902,255,16522,0,,0
+e0000676,2026-11-14T11:36:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,2,1
+e0001115,2026-11-13T18:16:00Z,like,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000580,2026-11-14T10:18:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,,1
+e0000410,2026-11-13T18:14:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,4,1
+e0001004,2026-11-14T10:04:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,3,1
+e0000869,2026-11-13T23:58:00Z,reply,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,5,1
+e0000241,2026-11-13T14:06:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,1,1
+e0000557,2026-11-14T03:25:00Z,reply,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,7,1
+e0000315,2026-11-13T17:03:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,2,1
+e0000340,2026-11-14T05:34:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,4,1
+e0000054,2026-11-14T09:42:00Z,retweet,orig_cooking_3,"Morning run done, feeling good #fitness",author_cooking,h0021,user_oak21x,2019-11-02T12:00:00Z,4601,384,4986,0,,0
+e0000632,2026-11-14T09:44:00Z,like,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000618,2026-11-14T02:47:00Z,reply,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,2,1
+e0000780,2026-11-14T07:58:00Z,reply,orig_crypto_3,"Huge #crypto gains this week, join now",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,7,1
+e0000907,2026-11-14T07:46:00Z,reply,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,4,1
+e0000304,2026-11-14T06:01:00Z,like,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000106,2026-11-13T12:31:00Z,retweet,orig_photography_13,Trying a new recipe tonight #cooking,author_photography,h0045,user_oak45x,2022-11-14T12:00:00Z,2823,188,13470,0,,0
+e0000912,2026-11-13T20:08:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000480,2026-11-13T15:14:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,4,1
+e0000591,2026-11-14T05:04:00Z,reply,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,8,1
+e0001138,2026-11-13T18:23:00Z,reply,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,9,1
+e0000254,2026-11-14T08:01:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,3,1
+e0000486,2026-11-13T17:13:00Z,reply,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,4,1
+e0000846,2026-11-14T01:59:00Z,reply,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,10,1
+e0000003,2026-11-13T20:25:00Z,like,orig_gardening_12,Golden hour shots from today #photography,author_gardening,h0001,user_sun1x,2018-11-12T12:00:00Z,3095,696,2400,0,,0
+e0000685,2026-11-13T16:26:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,7,1
+e0000284,2026-11-13T13:44:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,10,1
+e0000611,2026-11-13T23:35:00Z,reply,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,4,1
+e0001097,2026-11-13T13:57:00Z,like,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,,1
+e0000432,2026-11-13T19:20:00Z,like,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000621,2026-11-14T03:49:00Z,like,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000047,2026-11-14T11:58:00Z,retweet,orig_fitness_0,Finally planted the tomatoes #gardening,author_fitness,h0019,user_oak19x,2023-07-24T12:00:00Z,582,323,9918,0,,0
+e0000312,2026-11-14T09:55:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,7,1
+e0000777,2026-11-14T04:00:00Z,like,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,,1
+e0000868,2026-11-14T01:10:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,6,1
+e0000786,2026-11-13T20:33:00Z,reply,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,3,1
+e0000481,2026-11-14T02:41:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,3,1
+e0000614,2026-11-13T13:56:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,10,1
+e0000891,2026-11-13T23:06:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000119,2026-11-13T15:03:00Z,like,orig_gardening_11,Trying a new recipe tonight #cooking,author_gardening,h0051,user_oak51x,2018-10-08T12:00:00Z,1173,162,12092,0,,0
+e0001068,2026-11-14T01:06:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000613,2026-11-14T10:47:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,10,1
+e0000958,2026-11-14T04:22:00Z,reply,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,4,1
+e0000820,2026-11-13T14:59:00Z,like,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000443,2026-11-14T02:20:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,9,1
+e0000750,2026-11-14T03:51:00Z,like,orig_nft_14,Don't miss the next #nft drop!!,author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000510,2026-11-13T13:55:00Z,like,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0000105,2026-11-13T19:32:00Z,like,orig_gardening_5,"Morning run done, feeling good #fitness",author_gardening,h0044,user_sun44x,2023-12-03T12:00:00Z,3282,901,7031,0,,0
+e0000675,2026-11-13T22:30:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,5,1
+e0000415,2026-11-13T21:32:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,9,1
+e0000101,2026-11-14T10:15:00Z,like,orig_photography_8,Finally planted the tomatoes #gardening,author_photography,h0043,user_sun43x,2018-01-11T12:00:00Z,4027,768,11772,0,,0
+e0000944,2026-11-14T09:11:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,1,1
+e0000107,2026-11-14T05:19:00Z,retweet,orig_gardening_13,Any tips for a beginner with #gardening?,author_gardening,h0046,user_blue46x,2023-12-03T12:00:00Z,1492,230,1402,0,,0
+e0001112,2026-11-13T14:36:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,1,1
+e0000540,2026-11-14T02:53:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000556,2026-11-13T23:40:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,1,1
+e0000512,2026-11-14T08:36:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,1,1
+e0000068,2026-11-13T22:12:00Z,retweet,orig_photography_0,Finally planted the tomatoes #gardening,author_photography,h0027,user_oak27x,2020-05-25T12:00:00Z,948,593,13621,1,,0
+e0000636,2026-11-13T12:20:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,8,1
+e0000420,2026-11-14T00:09:00Z,reply,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,1,1
+e0000268,2026-11-13T12:05:00Z,reply,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,4,1
+e0000644,2026-11-14T11:27:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,5,1
+e0000393,2026-11-13T22:11:00Z,reply,orig_crypto_6,"Huge #crypto gains this week, join now",author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,6,1
+e0000928,2026-11-14T10:42:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,,1
+e0000324,2026-11-14T00:34:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,7,1
+e0000595,2026-11-14T07:02:00Z,like,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000388,2026-11-14T07:48:00Z,like,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000600,2026-11-14T06:45:00Z,like,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000102,2026-11-13T14:46:00Z,retweet,orig_gardening_14,Golden hour shots from today #photography,author_gardening,h0043,user_sun43x,2018-01-11T12:00:00Z,4027,768,11772,0,,0
+e0000981,2026-11-14T11:15:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000383,2026-11-13T19:06:00Z,like,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000985,2026-11-14T07:45:00Z,like,orig_crypto_2,"Huge #crypto gains this week, join now",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000715,2026-11-14T04:42:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,3,1
+e0000502,2026-11-14T00:29:00Z,like,orig_nft_2,Don't miss the next #nft drop!!,author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0000857,2026-11-13T13:08:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,1,1
+e0000880,2026-11-14T01:26:00Z,like,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000434,2026-11-14T11:04:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,4,1
+e0000874,2026-11-14T06:07:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,1,1
+e0000057,2026-11-13T19:27:00Z,like,orig_photography_6,Any tips for a beginner with #photography?,author_photography,h0022,user_river22x,2018-09-14T12:00:00Z,3502,467,12966,0,,0
+e0000863,2026-11-13T19:15:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0000097,2026-11-13T16:40:00Z,retweet,orig_photography_14,Trying a new recipe tonight #cooking,author_photography,h0041,user_oak41x,2021-01-04T12:00:00Z,2963,473,3139,0,,0
+e0000028,2026-11-14T01:51:00Z,reply,orig_photography_4,Golden hour shots from today #photography,author_photography,h0012,user_oak12x,2021-01-08T12:00:00Z,2458,723,2898,0,1467,0
+e0000013,2026-11-13T22:48:00Z,reply,orig_cooking_3,Any tips for a beginner with #cooking?,author_cooking,h0006,user_sun6x,2023-04-04T12:00:00Z,4776,415,18858,0,1900,0
+e0000344,2026-11-14T09:53:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,6,1
+e0000227,2026-11-13T23:31:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000208,2026-11-13T21:28:00Z,like,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000442,2026-11-13T23:18:00Z,reply,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,8,1
+e0000807,2026-11-13T21:08:00Z,reply,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,7,1
+e0000622,2026-11-14T10:11:00Z,reply,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,1,1
+e0000039,2026-11-14T07:40:00Z,like,orig_photography_0,Golden hour shots from today #photography,author_photography,h0015,user_oak15x,2020-12-11T12:00:00Z,4850,916,15448,1,,0
+e0000331,2026-11-14T10:47:00Z,like,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000010,2026-11-13T18:23:00Z,retweet,orig_gardening_4,Golden hour shots from today #photography,author_gardening,h0005,user_sun5x,2022-05-24T12:00:00Z,4660,979,4863,0,,0
+e0000518,2026-11-14T11:06:00Z,reply,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,4,1
+e0000904,2026-11-14T00:32:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0001017,2026-11-14T01:23:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,10,1
+e0000059,2026-11-14T09:57:00Z,retweet,orig_gardening_2,Golden hour shots from today #photography,author_gardening,h0023,user_sun23x,2023-03-07T12:00:00Z,1543,254,8100,0,,0
+e0000405,2026-11-13T12:08:00Z,like,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000426,2026-11-13T22:09:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,,1
+e0000504,2026-11-13T20:12:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,7,1
+e0000646,2026-11-13T22:34:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,4,1
+e0000313,2026-11-14T11:08:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,8,1
+e0000348,2026-11-13T14:29:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,8,1
+e0000244,2026-11-13T13:30:00Z,like,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,,1
+e0000421,2026-11-13T12:35:00Z,reply,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,5,1
+e0000601,2026-11-14T06:49:00Z,like,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000052,2026-11-13T19:11:00Z,like,orig_gardening_0,Golden hour shots from today #photography,author_gardening,h0021,user_oak21x,2019-11-02T12:00:00Z,4601,384,4986,0,,0
+e0000799,2026-11-14T00:18:00Z,reply,orig_crypto_6,Don't miss the next #crypto drop!!,author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,1,1
+e0000142,2026-11-14T10:01:00Z,like,orig_photography_14,Finally planted the tomatoes #gardening,author_photography,h0059,user_blue59x,2019-03-07T12:00:00Z,4386,997,9006,0,,0
+e0001120,2026-11-14T01:46:00Z,reply,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,2,1
+e0000238,2026-11-13T21:37:00Z,like,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0003,user154522529,2026-10-19T12:00:00Z,8,781,5831,1,,1
+e0000424,2026-11-13T14:31:00Z,reply,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,10,1
+e0001124,2026-11-13T15:12:00Z,reply,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,8,1
+e0000517,2026-11-14T00:16:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,8,1
+e0001084,2026-11-13T13:33:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,6,1
+e0001020,2026-11-14T05:41:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0001060,2026-11-14T06:08:00Z,reply,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,7,1
+e0000905,2026-11-13T22:01:00Z,reply,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,4,1
+e0000019,2026-11-14T00:28:00Z,reply,orig_cooking_13,"Morning run done, feeling good #fitness",author_cooking,h0008,user_sun8x,2018-09-24T12:00:00Z,4723,161,7248,0,67,0
+e0001141,2026-11-13T21:11:00Z,like,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0000464,2026-11-13T23:54:00Z,like,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000069,2026-11-14T09:54:00Z,like,orig_photography_4,Trying a new recipe tonight #cooking,author_photography,h0027,user_oak27x,2020-05-25T12:00:00Z,948,593,13621,1,,0
+e0000078,2026-11-14T10:51:00Z,retweet,orig_gardening_7,Golden hour shots from today #photography,author_gardening,h0030,user_sun30x,2020-10-17T12:00:00Z,676,995,7314,0,,0
+e0000978,2026-11-14T02:53:00Z,like,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000179,2026-11-14T06:13:00Z,like,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000060,2026-11-14T09:18:00Z,like,orig_photography_14,"Morning run done, feeling good #fitness",author_photography,h0024,user_oak24x,2024-09-26T12:00:00Z,4926,286,9109,0,,0
+e0000834,2026-11-14T00:47:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,5,1
+e0000178,2026-11-14T06:42:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,10,1
+e0000858,2026-11-13T17:51:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,2,1
+e0000647,2026-11-14T09:00:00Z,reply,orig_nft_4,"Best #nft signals, follow me #nft",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,1,1
+e0000048,2026-11-13T14:00:00Z,reply,orig_fitness_13,Golden hour shots from today #photography,author_fitness,h0019,user_oak19x,2023-07-24T12:00:00Z,582,323,9918,0,1201,0
+e0000813,2026-11-14T03:13:00Z,like,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000494,2026-11-14T01:07:00Z,like,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,,1
+e0001009,2026-11-14T10:28:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,3,1
+e0000746,2026-11-14T11:02:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0001023,2026-11-14T10:55:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,5,1
+e0000973,2026-11-14T07:59:00Z,reply,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,9,1
+e0001064,2026-11-14T03:11:00Z,like,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000343,2026-11-14T06:36:00Z,like,orig_crypto_8,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000684,2026-11-13T16:25:00Z,reply,orig_nft_10,"Huge #nft gains this week, join now",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,9,1
+e0001053,2026-11-14T06:14:00Z,like,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000988,2026-11-14T11:49:00Z,like,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000139,2026-11-14T11:37:00Z,reply,orig_gardening_0,"Morning run done, feeling good #fitness",author_gardening,h0058,user_river58x,2022-08-21T12:00:00Z,3805,620,17974,0,1706,0
+e0000215,2026-11-14T05:40:00Z,like,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000131,2026-11-14T03:21:00Z,retweet,orig_cooking_4,"Morning run done, feeling good #fitness",author_cooking,h0055,user_oak55x,2021-03-20T12:00:00Z,969,673,2361,0,,0
+e0001021,2026-11-13T20:47:00Z,like,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000914,2026-11-13T17:05:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,10,1
+e0000694,2026-11-14T10:54:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,9,1
+e0000701,2026-11-13T21:17:00Z,reply,orig_nft_7,"Huge #nft gains this week, join now",author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,8,1
+e0001027,2026-11-14T02:42:00Z,like,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000255,2026-11-13T20:33:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,7,1
+e0000117,2026-11-14T09:12:00Z,like,orig_cooking_14,Trying a new recipe tonight #cooking,author_cooking,h0050,user_river50x,2022-06-27T12:00:00Z,4205,346,19716,0,,0
+e0000829,2026-11-14T02:58:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,3,1
+e0000180,2026-11-14T07:42:00Z,reply,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,5,1
+e0000635,2026-11-14T00:05:00Z,like,orig_nft_9,Don't miss the next #nft drop!!,author_nft,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,,1
+e0000706,2026-11-14T11:34:00Z,reply,orig_crypto_13,"Huge #crypto gains this week, join now",author_crypto,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,6,1
+e0000113,2026-11-13T21:03:00Z,retweet,orig_photography_2,"Morning run done, feeling good #fitness",author_photography,h0048,user_blue48x,2018-09-22T12:00:00Z,275,114,3867,0,,0
+e0000943,2026-11-13T19:20:00Z,like,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0000326,2026-11-13T23:57:00Z,like,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0000581,2026-11-14T11:48:00Z,reply,orig_crypto_2,Don't miss the next #crypto drop!!,author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,6,1
+e0000778,2026-11-14T08:15:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,8,1
+e0000479,2026-11-13T19:30:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,1,1
+e0000473,2026-11-14T06:51:00Z,reply,orig_nft_7,Don't miss the next #nft drop!!,author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,1,1
+e0000461,2026-11-14T10:24:00Z,reply,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,1,1
+e0000457,2026-11-13T16:40:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000537,2026-11-14T09:22:00Z,like,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000797,2026-11-14T04:37:00Z,like,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000441,2026-11-13T22:18:00Z,reply,orig_crypto_1,"Huge #crypto gains this week, join now",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,3,1
+e0000960,2026-11-13T20:52:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,7,1
+e0000281,2026-11-13T17:08:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,6,1
+e0000679,2026-11-14T06:21:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000267,2026-11-13T15:54:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,6,1
+e0000662,2026-11-13T16:19:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0020,user722723300,2026-10-10T12:00:00Z,5,1054,4842,0,4,1
+e0000966,2026-11-13T23:27:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,,1
+e0001107,2026-11-14T01:21:00Z,reply,orig_nft_6,Don't miss the next #nft drop!!,author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,9,1
+e0000762,2026-11-14T08:09:00Z,reply,orig_crypto_11,Don't miss the next #crypto drop!!,author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,2,1
+e0000724,2026-11-14T07:58:00Z,like,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000261,2026-11-14T07:12:00Z,reply,orig_crypto_12,"Best #crypto signals, follow me #crypto",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,1,1
+e0000342,2026-11-14T02:48:00Z,reply,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,9,1
+e0000079,2026-11-14T09:33:00Z,like,orig_fitness_4,Finally planted the tomatoes #gardening,author_fitness,h0030,user_sun30x,2020-10-17T12:00:00Z,676,995,7314,0,,0
+e0001085,2026-11-13T21:30:00Z,like,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000761,2026-11-13T17:43:00Z,like,orig_nft_0,"Huge #nft gains this week, join now",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0001026,2026-11-13T21:15:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,,1
+e0000098,2026-11-13T14:01:00Z,reply,orig_photography_3,Golden hour shots from today #photography,author_photography,h0042,user_oak42x,2022-04-30T12:00:00Z,1711,445,7196,0,134,0
+e0000668,2026-11-14T06:11:00Z,like,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000594,2026-11-13T12:58:00Z,like,orig_crypto_11,Don't miss the next #crypto drop!!,author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000397,2026-11-14T08:53:00Z,like,orig_crypto_8,"Huge #crypto gains this week, join now",author_crypto,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,,1
+e0000889,2026-11-14T05:07:00Z,like,orig_nft_5,"Best #nft signals, follow me #nft",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000688,2026-11-13T22:53:00Z,like,orig_nft_9,Don't miss the next #nft drop!!,author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0001054,2026-11-13T17:32:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,6,1
+e0001123,2026-11-13T20:41:00Z,reply,orig_nft_4,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,10,1
+e0000330,2026-11-13T14:49:00Z,like,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,,1
+e0001134,2026-11-14T08:11:00Z,reply,orig_nft_1,Don't miss the next #nft drop!!,author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,10,1
+e0000709,2026-11-13T20:29:00Z,like,orig_nft_12,Don't miss the next #nft drop!!,author_nft,b0022,user553155530,2026-10-30T12:00:00Z,15,1003,5662,1,,1
+e0000545,2026-11-14T03:19:00Z,like,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,,1
+e0001133,2026-11-14T08:41:00Z,like,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,,1
+e0001126,2026-11-13T21:48:00Z,reply,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,2,1
+e0000817,2026-11-14T07:26:00Z,reply,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,9,1
+e0000300,2026-11-13T18:02:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,,1
+e0000994,2026-11-13T21:16:00Z,reply,orig_nft_5,"Huge #nft gains this week, join now",author_nft,b0034,user327680107,2026-10-23T12:00:00Z,20,976,2692,1,3,1
+e0000044,2026-11-14T01:38:00Z,retweet,orig_gardening_2,Any tips for a beginner with #gardening?,author_gardening,h0017,user_river17x,2017-01-02T12:00:00Z,4834,797,15102,0,,0
+e0000256,2026-11-13T13:47:00Z,reply,orig_nft_11,Don't miss the next #nft drop!!,author_nft,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,5,1
+e0000066,2026-11-13T17:31:00Z,reply,orig_cooking_14,Golden hour shots from today #photography,author_cooking,h0026,user_sun26x,2023-06-19T12:00:00Z,3840,991,18826,0,861,0
+e0000763,2026-11-14T02:40:00Z,like,orig_nft_14,"Best #nft signals, follow me #nft",author_nft,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000120,2026-11-14T02:11:00Z,reply,orig_cooking_12,Finally planted the tomatoes #gardening,author_cooking,h0051,user_oak51x,2018-10-08T12:00:00Z,1173,162,12092,0,599,0
+e0000437,2026-11-13T23:26:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,6,1
+e0000588,2026-11-14T09:42:00Z,reply,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,6,1
+e0000919,2026-11-14T11:20:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,6,1
+e0000505,2026-11-14T01:19:00Z,reply,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,6,1
+e0000185,2026-11-14T05:19:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,5,1
+e0001033,2026-11-14T09:56:00Z,reply,orig_crypto_14,"Best #crypto signals, follow me #crypto",author_crypto,b0035,user917167523,2026-10-09T12:00:00Z,24,817,7386,0,3,1
+e0001125,2026-11-13T21:29:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0039,user888350033,2026-11-10T12:00:00Z,21,1696,7826,1,10,1
+e0000947,2026-11-13T20:41:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,5,1
+e0000204,2026-11-14T07:36:00Z,reply,orig_crypto_14,Don't miss the next #crypto drop!!,author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,8,1
+e0000050,2026-11-14T01:31:00Z,retweet,orig_cooking_0,Golden hour shots from today #photography,author_cooking,h0019,user_oak19x,2023-07-24T12:00:00Z,582,323,9918,0,,0
+e0001104,2026-11-14T04:23:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0038,user150580406,2026-10-10T12:00:00Z,29,1572,6131,1,7,1
+e0000519,2026-11-14T00:02:00Z,like,orig_crypto_0,"Huge #crypto gains this week, join now",author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,,1
+e0000826,2026-11-13T15:55:00Z,like,orig_crypto_0,"Best #crypto signals, follow me #crypto",author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000468,2026-11-13T12:58:00Z,reply,orig_nft_3,"Best #nft signals, follow me #nft",author_nft,b0013,user300640865,2026-11-06T12:00:00Z,1,1909,3501,1,2,1
+e0000193,2026-11-13T14:48:00Z,reply,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,8,1
+e0000001,2026-11-13T14:16:00Z,like,orig_cooking_5,Trying a new recipe tonight #cooking,author_cooking,h0000,user_blue0x,2021-03-29T12:00:00Z,3334,766,2082,1,,0
+e0000769,2026-11-14T07:06:00Z,reply,orig_nft_7,"Best #nft signals, follow me #nft",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,5,1
+e0000903,2026-11-14T07:09:00Z,like,orig_crypto_5,"Huge #crypto gains this week, join now",author_crypto,b0030,user948457517,2026-11-09T12:00:00Z,9,946,4921,1,,1
+e0000026,2026-11-13T20:37:00Z,reply,orig_cooking_9,Trying a new recipe tonight #cooking,author_cooking,h0011,user_sun11x,2022-02-19T12:00:00Z,4805,407,17709,0,3059,0
+e0000956,2026-11-14T07:21:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,10,1
+e0000779,2026-11-13T19:38:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,7,1
+e0000451,2026-11-14T04:25:00Z,like,orig_nft_10,"Best #nft signals, follow me #nft",author_nft,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,,1
+e0000892,2026-11-13T17:11:00Z,like,orig_crypto_14,"Huge #crypto gains this week, join now",author_crypto,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000025,2026-11-14T05:04:00Z,retweet,orig_cooking_11,Golden hour shots from today #photography,author_cooking,h0011,user_sun11x,2022-02-19T12:00:00Z,4805,407,17709,0,,0
+e0000809,2026-11-14T01:46:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,2,1
+e0000422,2026-11-14T03:45:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,8,1
+e0000548,2026-11-13T16:17:00Z,reply,orig_nft_0,"Best #nft signals, follow me #nft",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,6,1
+e0000169,2026-11-14T11:58:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,5,1
+e0000620,2026-11-14T05:16:00Z,reply,orig_crypto_4,"Best #crypto signals, follow me #crypto",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,5,1
+e0000592,2026-11-14T09:33:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,2,1
+e0000674,2026-11-13T17:43:00Z,reply,orig_crypto_7,Don't miss the next #crypto drop!!,author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,1,1
+e0000459,2026-11-13T12:36:00Z,reply,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0012,user987952888,2026-10-08T12:00:00Z,16,1668,6051,1,9,1
+e0000294,2026-11-14T08:17:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,3,1
+e0000317,2026-11-14T03:52:00Z,reply,orig_crypto_11,"Best #crypto signals, follow me #crypto",author_crypto,b0006,user211179237,2026-10-16T12:00:00Z,11,1152,2755,1,10,1
+e0001075,2026-11-13T13:05:00Z,like,orig_crypto_4,"Huge #crypto gains this week, join now",author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000210,2026-11-13T19:27:00Z,reply,orig_crypto_6,"Best #crypto signals, follow me #crypto",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,5,1
+e0000690,2026-11-14T01:27:00Z,like,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,,1
+e0000980,2026-11-14T02:47:00Z,reply,orig_crypto_8,"Best #crypto signals, follow me #crypto",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,7,1
+e0000435,2026-11-13T14:14:00Z,reply,orig_nft_8,"Huge #nft gains this week, join now",author_nft,b0011,user913237982,2026-10-15T12:00:00Z,29,1884,4118,1,5,1
+e0001086,2026-11-14T05:15:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,9,1
+e0000319,2026-11-13T18:55:00Z,reply,orig_nft_12,"Huge #nft gains this week, join now",author_nft,b0007,user363902921,2026-11-10T12:00:00Z,17,1439,5608,1,8,1
+e0000182,2026-11-14T00:52:00Z,like,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,,1
+e0000349,2026-11-13T17:14:00Z,reply,orig_crypto_9,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,2,1
+e0000363,2026-11-13T20:59:00Z,reply,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,7,1
+e0000377,2026-11-14T03:53:00Z,reply,orig_crypto_5,"Best #crypto signals, follow me #crypto",author_crypto,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,10,1
+e0000755,2026-11-14T11:33:00Z,like,orig_crypto_11,"Huge #crypto gains this week, join now",author_crypto,b0024,user739457070,2026-10-23T12:00:00Z,6,970,4807,1,,1
+e0000640,2026-11-13T19:12:00Z,reply,orig_crypto_9,"Best #crypto signals, follow me #crypto",author_crypto,b0019,user676030454,2026-10-23T12:00:00Z,9,1587,3686,1,8,1
+e0000681,2026-11-14T00:31:00Z,reply,orig_nft_5,Don't miss the next #nft drop!!,author_nft,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,7,1
+e0000974,2026-11-14T08:34:00Z,like,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000941,2026-11-14T04:48:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0031,user410768451,2026-10-21T12:00:00Z,2,1472,4284,1,7,1
+e0000549,2026-11-13T15:47:00Z,reply,orig_nft_8,"Best #nft signals, follow me #nft",author_nft,b0016,user488235608,2026-11-04T12:00:00Z,0,1194,6530,1,8,1
+e0000737,2026-11-13T15:06:00Z,like,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,,1
+e0000354,2026-11-14T01:46:00Z,reply,orig_nft_2,"Huge #nft gains this week, join now",author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,8,1
+e0000156,2026-11-14T11:05:00Z,reply,orig_crypto_1,"Best #crypto signals, follow me #crypto",author_crypto,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,3,1
+e0000493,2026-11-13T20:02:00Z,reply,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0014,user289754324,2026-11-07T12:00:00Z,30,534,7197,1,10,1
+e0000168,2026-11-14T04:37:00Z,reply,orig_nft_11,"Best #nft signals, follow me #nft",author_nft,b0001,user340280725,2026-10-14T12:00:00Z,2,1874,3971,1,1,1
+e0000076,2026-11-14T01:06:00Z,reply,orig_gardening_7,Any tips for a beginner with #gardening?,author_gardening,h0029,user_sun29x,2024-04-13T12:00:00Z,101,680,5456,0,1027,0
+e0000954,2026-11-14T09:13:00Z,reply,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,8,1
+e0000692,2026-11-14T00:55:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0021,user40674064,2026-10-26T12:00:00Z,0,537,6142,1,9,1
+e0001050,2026-11-14T08:54:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000289,2026-11-13T14:34:00Z,like,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0005,user174372860,2026-10-28T12:00:00Z,22,1383,6223,1,,1
+e0000800,2026-11-14T03:52:00Z,like,orig_crypto_13,"Best #crypto signals, follow me #crypto",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000385,2026-11-13T19:28:00Z,like,orig_nft_0,Don't miss the next #nft drop!!,author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,,1
+e0000811,2026-11-14T09:25:00Z,reply,orig_nft_9,"Best #nft signals, follow me #nft",author_nft,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,9,1
+e0001056,2026-11-13T23:24:00Z,like,orig_nft_13,Don't miss the next #nft drop!!,author_nft,b0036,user821673058,2026-10-18T12:00:00Z,10,1975,6048,1,,1
+e0000819,2026-11-14T02:56:00Z,like,orig_nft_1,"Huge #nft gains this week, join now",author_nft,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000825,2026-11-14T06:26:00Z,like,orig_crypto_13,Don't miss the next #crypto drop!!,author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,,1
+e0000586,2026-11-13T13:36:00Z,like,orig_crypto_7,"Best #crypto signals, follow me #crypto",author_crypto,b0017,user668549003,2026-10-25T12:00:00Z,4,588,6316,1,,1
+e0000768,2026-11-13T13:30:00Z,reply,orig_crypto_10,"Huge #crypto gains this week, join now",author_crypto,b0025,user435540855,2026-11-03T12:00:00Z,11,611,3063,1,2,1
+e0000401,2026-11-14T01:23:00Z,reply,orig_nft_1,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,5,1
+e0000871,2026-11-14T03:40:00Z,like,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0029,user283655094,2026-11-11T12:00:00Z,11,1173,6481,1,,1
+e0000801,2026-11-13T15:18:00Z,like,orig_crypto_7,"Huge #crypto gains this week, join now",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,,1
+e0000803,2026-11-13T21:48:00Z,reply,orig_crypto_2,"Best #crypto signals, follow me #crypto",author_crypto,b0026,user463504317,2026-10-26T12:00:00Z,5,613,2692,1,2,1
+e0000392,2026-11-13T20:04:00Z,reply,orig_nft_13,"Best #nft signals, follow me #nft",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,3,1
+e0000089,2026-11-13T15:25:00Z,reply,orig_fitness_4,Any tips for a beginner with #fitness?,author_fitness,h0036,user_river36x,2018-12-13T12:00:00Z,845,812,9056,0,788,0
+e0000860,2026-11-13T20:22:00Z,like,orig_nft_8,Don't miss the next #nft drop!!,author_nft,b0028,user49573390,2026-10-24T12:00:00Z,14,879,3290,1,,1
+e0001083,2026-11-13T23:49:00Z,like,orig_nft_6,"Huge #nft gains this week, join now",author_nft,b0037,user48017079,2026-11-02T12:00:00Z,26,1964,6202,1,,1
+e0000975,2026-11-14T09:01:00Z,like,orig_crypto_4,Don't miss the next #crypto drop!!,author_crypto,b0033,user155474023,2026-11-06T12:00:00Z,12,1701,2341,1,,1
+e0000378,2026-11-14T08:37:00Z,reply,orig_nft_13,"Huge #nft gains this week, join now",author_nft,b0009,user122171715,2026-11-07T12:00:00Z,29,968,2858,1,1,1
+e0000214,2026-11-14T03:28:00Z,like,orig_crypto_9,"Huge #crypto gains this week, join now",author_crypto,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,,1
+e0000616,2026-11-14T08:56:00Z,like,orig_crypto_5,Don't miss the next #crypto drop!!,author_crypto,b0018,user174354647,2026-11-04T12:00:00Z,8,603,3483,1,,1
+e0000197,2026-11-14T05:01:00Z,reply,orig_nft_11,"Huge #nft gains this week, join now",author_nft,b0002,user719840243,2026-10-29T12:00:00Z,9,750,3265,0,10,1
+e0000357,2026-11-14T11:39:00Z,like,orig_crypto_0,Don't miss the next #crypto drop!!,author_crypto,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,,1
+e0000948,2026-11-14T01:48:00Z,reply,orig_nft_3,"Huge #nft gains this week, join now",author_nft,b0032,user267480598,2026-10-30T12:00:00Z,16,510,2744,1,1,1
+e0000818,2026-11-13T19:08:00Z,reply,orig_crypto_12,Don't miss the next #crypto drop!!,author_crypto,b0027,user935732866,2026-10-18T12:00:00Z,16,1873,4309,1,6,1
+e0000398,2026-11-13T16:38:00Z,reply,orig_nft_2,"Best #nft signals, follow me #nft",author_nft,b0010,user43507489,2026-10-25T12:00:00Z,28,871,4215,1,7,1
+e0000531,2026-11-14T00:25:00Z,reply,orig_crypto_10,Don't miss the next #crypto drop!!,author_crypto,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,7,1
+e0000739,2026-11-14T01:27:00Z,reply,orig_crypto_12,"Huge #crypto gains this week, join now",author_crypto,b0023,user705921640,2026-10-15T12:00:00Z,15,1618,5220,0,6,1
+e0000360,2026-11-13T15:43:00Z,reply,orig_nft_10,Don't miss the next #nft drop!!,author_nft,b0008,user356943145,2026-10-18T12:00:00Z,16,1777,4420,1,8,1
+e0000528,2026-11-14T07:14:00Z,reply,orig_nft_14,"Huge #nft gains this week, join now",author_nft,b0015,user90917850,2026-10-26T12:00:00Z,19,955,2545,1,8,1
+e0000163,2026-11-13T13:57:00Z,reply,orig_nft_3,Don't miss the next #nft drop!!,author_nft,b0000,user902942900,2026-10-30T12:00:00Z,14,780,5413,1,2,1
+e0000032,2026-11-14T05:26:00Z,retweet,orig_photography_3,Golden hour shots from today #photography,author_photography,h0013,user_blue13x,2020-03-08T12:00:00Z,2902,255,16522,0,,0
+e0000263,2026-11-13T22:59:00Z,reply,orig_crypto_3,"Best #crypto signals, follow me #crypto",author_crypto,b0004,user428625057,2026-11-05T12:00:00Z,28,1497,3333,0,9,1

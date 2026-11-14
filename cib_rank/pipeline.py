@@ -1,0 +1,72 @@
+"""Turns one raw engagement event into stored records.
+
+An event is one engagement (like / reply / retweet) by an actor on a tweet.
+Expected fields are listed in `EVENT_FIELDS` and match the CSV from the
+ingestion step.
+"""
+
+from __future__ import annotations
+
+import hashlib
+from collections import defaultdict
+from dataclasses import dataclass, field
+from datetime import datetime
+
+from .scoring import SUSPICIOUS_THRESHOLD, Account, bot_score
+from .topics import extract_topics
+
+
+@dataclass
+class DuplicateTracker:
+    """Counts how many distinct accounts posted the same text.
+
+    Kept in memory per consumer process. A restart resets the counts, so the
+    duplicate signal is weaker after a restart (documented in the README).
+    """
+
+    actors_by_text: dict[str, set[str]] = field(default_factory=lambda: defaultdict(set))
+
+    def observe(self, text: str, actor_id: str) -> int:
+        """Record that `actor_id` used `text`; return how many accounts used it so far."""
+        digest = hashlib.sha256(" ".join(text.lower().split()).encode()).hexdigest()
+        self.actors_by_text[digest].add(actor_id)
+        return len(self.actors_by_text[digest]) - 1  # other accounts, not counting this one
+
+
+def parse_time(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+
+def process_event(event: dict, store, duplicates: DuplicateTracker) -> dict:
+    """Score the actor, store the records, update topic counters.
+
+    Returns a summary dict (used by the consumer for metrics and by tests).
+    """
+    ts = parse_time(event["timestamp"])
+    account = Account(
+        user_id=str(event["actor_id"]),
+        username=event.get("actor_username", ""),
+        created_at=parse_time(event["actor_created_at"]),
+        followers=int(event["actor_followers"]),
+        following=int(event["actor_following"]),
+        statuses=int(event["actor_statuses"]),
+        default_avatar=str(event["actor_default_avatar"]).lower() in ("1", "true", "yes"),
+    )
+    latency = event.get("reply_latency_seconds")
+    latency = float(latency) if latency not in (None, "") else None
+
+    other_accounts = duplicates.observe(event.get("tweet_text", ""), account.user_id)
+    score = bot_score(account, ts, duplicate_count=other_accounts, reply_latency_seconds=latency)
+    suspicious = score >= SUSPICIOUS_THRESHOLD
+
+    topics = extract_topics(event.get("tweet_text", ""))
+    store.upsert_account(account, score)
+    store.upsert_tweet(str(event["tweet_id"]), event.get("tweet_text", ""),
+                       str(event.get("author_id", "")), ts, topics)
+    for topic in topics:
+        store.add_engagement(topic, ts, str(event["event_id"]), event["event_type"],
+                             account.user_id, score)
+        store.count_engagement(topic, ts, suspicious)
+
+    return {"actor_id": account.user_id, "bot_score": score,
+            "suspicious": suspicious, "topics": topics}

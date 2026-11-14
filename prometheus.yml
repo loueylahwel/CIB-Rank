@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: cib-rank
+    # The consumer runs on the host and serves metrics on :8000 (CIB_METRICS_PORT).
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
