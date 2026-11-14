@@ -42,6 +42,9 @@ services:
       - "${CIB_GRAFANA_PORT:-3030}:3000"   # 3000 is often taken by web dev servers
     environment:
       GF_SECURITY_ADMIN_PASSWORD: "admin"  # local demo only
+      # Read-only viewing without a login, so the dashboard opens straight away in a demo.
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: "Viewer"
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning:ro
       - ./grafana/dashboards:/var/lib/grafana/dashboards:ro

@@ -90,7 +90,7 @@ Then open:
 
 | Service | URL |
 |---|---|
-| Grafana dashboard | http://localhost:3030/d/cib-rank (`admin` / `admin`, local only) |
+| Grafana dashboard | http://localhost:3030/d/cib-rank (opens read-only without a login; `admin` / `admin` to edit, local only) |
 | Prometheus | http://localhost:9091 |
 | HBase master UI | http://localhost:16010 |
 
