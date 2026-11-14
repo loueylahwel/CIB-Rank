@@ -1,19 +1,32 @@
 {
   "uid": "cib-rank",
   "title": "CIB-Rank: Suspicious Engagement by Topic",
-  "tags": ["cib-rank"],
+  "tags": [
+    "cib-rank"
+  ],
   "timezone": "browser",
   "schemaVersion": 39,
-  "version": 1,
+  "version": 2,
   "refresh": "10s",
-  "time": { "from": "now-1h", "to": "now" },
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
   "panels": [
     {
       "id": 1,
       "type": "bargauge",
       "title": "Suspicious engagement ratio by topic (now)",
-      "gridPos": { "x": 0, "y": 0, "w": 12, "h": 10 },
-      "datasource": { "type": "prometheus", "uid": "cib-prometheus" },
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 10
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cib-prometheus"
+      },
       "targets": [
         {
           "refId": "A",
@@ -26,7 +39,13 @@
         "orientation": "horizontal",
         "displayMode": "gradient",
         "showUnfilled": true,
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
       },
       "fieldConfig": {
         "defaults": {
@@ -36,9 +55,18 @@
           "thresholds": {
             "mode": "absolute",
             "steps": [
-              { "color": "green", "value": null },
-              { "color": "orange", "value": 0.3 },
-              { "color": "red", "value": 0.6 }
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 0.1
+              },
+              {
+                "color": "red",
+                "value": 0.2
+              }
             ]
           }
         },
@@ -49,8 +77,16 @@
       "id": 2,
       "type": "bargauge",
       "title": "Engagements per topic",
-      "gridPos": { "x": 12, "y": 0, "w": 12, "h": 10 },
-      "datasource": { "type": "prometheus", "uid": "cib-prometheus" },
+      "gridPos": {
+        "x": 12,
+        "y": 0,
+        "w": 12,
+        "h": 10
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cib-prometheus"
+      },
       "targets": [
         {
           "refId": "A",
@@ -62,27 +98,84 @@
       "options": {
         "orientation": "horizontal",
         "displayMode": "basic",
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
       },
-      "fieldConfig": { "defaults": { "unit": "short", "min": 0 }, "overrides": [] }
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "min": 0,
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "blue"
+          }
+        },
+        "overrides": []
+      }
     },
     {
       "id": 3,
       "type": "timeseries",
-      "title": "Suspicious ratio over time",
-      "gridPos": { "x": 0, "y": 10, "w": 12, "h": 9 },
-      "datasource": { "type": "prometheus", "uid": "cib-prometheus" },
+      "title": "Suspicious ratio over time (top 10 topics)",
+      "gridPos": {
+        "x": 0,
+        "y": 10,
+        "w": 12,
+        "h": 9
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cib-prometheus"
+      },
       "targets": [
-        { "refId": "A", "expr": "cib_topic_suspicious_ratio", "legendFormat": "#{{topic}}" }
+        {
+          "refId": "A",
+          "expr": "topk(10, cib_topic_suspicious_ratio)",
+          "legendFormat": "#{{topic}}"
+        }
       ],
-      "fieldConfig": { "defaults": { "unit": "percentunit", "min": 0, "max": 1 }, "overrides": [] }
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "min": 0,
+          "max": 1
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "right",
+          "showLegend": true,
+          "calcs": [
+            "lastNotNull"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      }
     },
     {
       "id": 4,
       "type": "bargauge",
       "title": "Average sentiment by topic (-1 to 1)",
-      "gridPos": { "x": 12, "y": 10, "w": 12, "h": 9 },
-      "datasource": { "type": "prometheus", "uid": "cib-prometheus" },
+      "gridPos": {
+        "x": 12,
+        "y": 10,
+        "w": 12,
+        "h": 9
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cib-prometheus"
+      },
       "targets": [
         {
           "refId": "A",
@@ -94,7 +187,13 @@
       "options": {
         "orientation": "horizontal",
         "displayMode": "basic",
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
       },
       "fieldConfig": {
         "defaults": {
@@ -104,9 +203,18 @@
           "thresholds": {
             "mode": "absolute",
             "steps": [
-              { "color": "red", "value": null },
-              { "color": "yellow", "value": -0.1 },
-              { "color": "green", "value": 0.1 }
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": -0.1
+              },
+              {
+                "color": "green",
+                "value": 0.1
+              }
             ]
           }
         },
