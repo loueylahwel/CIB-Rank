@@ -2,8 +2,6 @@
 
 **Coordinated Inauthentic Behavior Rank**: a NoSQL (Apache HBase) pipeline that ranks Twitter topics and niches by how much of their engagement (likes, replies, retweets) comes from fake or bot-like accounts.
 
-Inspired by the "NoSQL Project: Apache HBase" presentation (a real-time Twitter analytics pipeline with Kafka, NLP, HBase and Grafana).
-
 > **Status: early prototype.** The scoring, pipeline and ranking logic is covered by unit tests. The HBase/Kafka/Grafana stack has been written but not yet run end to end. The sample data is **synthetic**, so its results show that the code works, not that any real topic is manipulated.
 
 ## How it works
