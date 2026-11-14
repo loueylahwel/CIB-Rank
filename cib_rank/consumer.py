@@ -22,7 +22,20 @@ SUSPICIOUS_RATIO = Gauge(
     "cib_topic_suspicious_ratio", "Share of engagements from suspicious accounts", ["topic"])
 TOPIC_TOTAL = Gauge(
     "cib_topic_engagements_total", "Engagements seen per topic", ["topic"])
+AVG_SENTIMENT = Gauge(
+    "cib_topic_avg_sentiment", "Average sentiment of engaged tweets, -1 to 1", ["topic"])
+
+# A full HBase scan is expensive, so the gauges are refreshed every
+# REFRESH_EVERY events, and also whenever the topic goes quiet.
 REFRESH_EVERY = 50
+POLL_TIMEOUT_MS = 1000
+
+
+def refresh_metrics(store) -> None:
+    for row in rank_topics(store.topic_totals(), min_engagements=1):
+        SUSPICIOUS_RATIO.labels(topic=row["topic"]).set(row["suspicious_ratio"])
+        TOPIC_TOTAL.labels(topic=row["topic"]).set(row["total"])
+        AVG_SENTIMENT.labels(topic=row["topic"]).set(row["avg_sentiment"])
 
 
 def run(create_tables: bool) -> None:
@@ -41,20 +54,25 @@ def run(create_tables: bool) -> None:
         auto_offset_reset="earliest",
         value_deserializer=lambda v: json.loads(v.decode("utf-8")),
     )
-    print(f"Consuming '{KAFKA_TOPIC}', metrics on :{METRICS_PORT}")
+    print(f"Consuming '{KAFKA_TOPIC}', metrics on :{METRICS_PORT}", flush=True)
+    refresh_metrics(store)  # show what is already in HBase right away
+
+    since_refresh = 0
     processed = 0
-    for message in consumer:
-        process_event(message.value, store, duplicates)
-        processed += 1
-        # A full HBase scan is expensive, so refresh the gauges in batches.
-        if processed % REFRESH_EVERY == 0:
-            refresh_metrics(store)
-
-
-def refresh_metrics(store) -> None:
-    for row in rank_topics(store.topic_totals(), min_engagements=1):
-        SUSPICIOUS_RATIO.labels(topic=row["topic"]).set(row["suspicious_ratio"])
-        TOPIC_TOTAL.labels(topic=row["topic"]).set(row["total"])
+    while True:
+        batches = consumer.poll(timeout_ms=POLL_TIMEOUT_MS)
+        for records in batches.values():
+            for record in records:
+                process_event(record.value, store, duplicates)
+                processed += 1
+                since_refresh += 1
+                if since_refresh >= REFRESH_EVERY:
+                    refresh_metrics(store)
+                    since_refresh = 0
+        if not batches and since_refresh:
+            refresh_metrics(store)  # stream went quiet: publish the last partial batch
+            since_refresh = 0
+            print(f"Processed {processed} events so far", flush=True)
 
 
 def main() -> None:

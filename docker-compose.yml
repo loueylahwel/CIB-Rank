@@ -32,10 +32,18 @@ services:
       - "9091:9090"     # 9090 is taken by the HBase Thrift gateway
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    extra_hosts:
+      # Lets Prometheus reach the consumer running on the host (needed on Linux).
+      - "host.docker.internal:host-gateway"
 
   grafana:
     image: grafana/grafana:11.1.0
     ports:
-      - "3000:3000"
+      - "${CIB_GRAFANA_PORT:-3030}:3000"   # 3000 is often taken by web dev servers
     environment:
       GF_SECURITY_ADMIN_PASSWORD: "admin"  # local demo only
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      - prometheus

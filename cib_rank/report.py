@@ -21,10 +21,10 @@ def main() -> None:
 
     store = HBaseStore(HBASE_HOST, HBASE_PORT)
     rows = rank_topics(store.topic_totals(), args.min_engagements)[: args.top]
-    print(f"{'topic':<24}{'engagements':>12}{'suspicious':>12}{'ratio':>8}")
+    print(f"{'topic':<24}{'engagements':>12}{'suspicious':>12}{'ratio':>8}{'sentiment':>11}")
     for row in rows:
         print(f"#{row['topic']:<23}{row['total']:>12}{row['suspicious']:>12}"
-              f"{row['suspicious_ratio']:>8.3f}")
+              f"{row['suspicious_ratio']:>8.3f}{row['avg_sentiment']:>11.3f}")
 
 
 if __name__ == "__main__":

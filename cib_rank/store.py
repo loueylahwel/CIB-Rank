@@ -3,6 +3,12 @@
 `HBaseStore` is the real backend (Apache HBase through the Thrift gateway).
 `MemoryStore` has the same methods and is used by the tests and for quick
 local runs without a cluster.
+
+Idempotency: `add_engagement` returns False when the engagement row already
+exists, and the pipeline only increments the topic counters for new rows.
+Replaying Kafka messages therefore does not double-count. (With several
+consumers writing the same event at the same moment, a duplicate could still
+slip through; one consumer per partition, as Kafka groups do, avoids that.)
 """
 
 from __future__ import annotations
@@ -20,6 +26,13 @@ TABLES = {
     "topic_stats": ["s"],
 }
 
+# Sentiment is stored as an integer counter in thousandths (HBase counters are ints).
+_SENTIMENT_SCALE = 1000
+
+
+def _empty_totals() -> dict:
+    return {"total": 0, "suspicious": 0, "sentiment_sum": 0.0}
+
 
 class MemoryStore:
     """In-process store with the same interface as HBaseStore."""
@@ -34,27 +47,35 @@ class MemoryStore:
         self.accounts[account.user_id] = {"username": account.username, "bot_score": score}
 
     def upsert_tweet(self, tweet_id: str, text: str, author_id: str,
-                     ts: datetime, topics: list[str]) -> None:
+                     ts: datetime, topics: list[str], sentiment: float = 0.0) -> None:
         self.tweets[tweet_id] = {"text": text, "author_id": author_id,
-                                 "created_at": ts.isoformat(), "topics": topics}
+                                 "created_at": ts.isoformat(), "topics": topics,
+                                 "sentiment": sentiment}
 
     def add_engagement(self, topic: str, ts: datetime, event_id: str,
-                       event_type: str, actor_id: str, score: float) -> None:
-        self.engagements[keys.engagement_key(topic, ts, event_id)] = {
-            "type": event_type, "actor_id": actor_id, "actor_bot_score": score}
+                       event_type: str, actor_id: str, score: float) -> bool:
+        key = keys.engagement_key(topic, ts, event_id)
+        if key in self.engagements:
+            return False
+        self.engagements[key] = {"type": event_type, "actor_id": actor_id,
+                                 "actor_bot_score": score}
+        return True
 
-    def count_engagement(self, topic: str, ts: datetime, suspicious: bool) -> None:
+    def count_engagement(self, topic: str, ts: datetime, suspicious: bool,
+                         sentiment: float = 0.0) -> None:
         row = self.topic_stats[keys.topic_stats_key(topic, ts)]
         row["total"] += 1
         if suspicious:
             row["suspicious"] += 1
+        row["sentiment_milli"] += round(sentiment * _SENTIMENT_SCALE)
 
-    def topic_totals(self) -> dict[str, dict[str, int]]:
-        totals: dict[str, dict[str, int]] = defaultdict(lambda: {"total": 0, "suspicious": 0})
+    def topic_totals(self) -> dict[str, dict]:
+        totals: dict[str, dict] = defaultdict(_empty_totals)
         for key, counts in self.topic_stats.items():
             topic = key.decode().split("|")[0]
             totals[topic]["total"] += counts["total"]
             totals[topic]["suspicious"] += counts["suspicious"]
+            totals[topic]["sentiment_sum"] += counts["sentiment_milli"] / _SENTIMENT_SCALE
         return dict(totals)
 
 
@@ -93,33 +114,45 @@ class HBaseStore:
         })
 
     def upsert_tweet(self, tweet_id: str, text: str, author_id: str,
-                     ts: datetime, topics: list[str]) -> None:
+                     ts: datetime, topics: list[str], sentiment: float = 0.0) -> None:
         self._table("tweets").put(keys.tweet_key(tweet_id), {
             b"t:text": text.encode(),
             b"t:author_id": author_id.encode(),
             b"t:created_at": ts.isoformat().encode(),
             b"n:topics": ",".join(topics).encode(),
+            b"n:sentiment": str(sentiment).encode(),
         })
 
     def add_engagement(self, topic: str, ts: datetime, event_id: str,
-                       event_type: str, actor_id: str, score: float) -> None:
-        self._table("engagements").put(keys.engagement_key(topic, ts, event_id), {
+                       event_type: str, actor_id: str, score: float) -> bool:
+        table = self._table("engagements")
+        key = keys.engagement_key(topic, ts, event_id)
+        if table.row(key, columns=[b"e:type"]):
+            return False  # already stored: a replayed message
+        table.put(key, {
             b"e:type": event_type.encode(),
             b"e:actor_id": actor_id.encode(),
             b"e:actor_bot_score": str(score).encode(),
         })
+        return True
 
-    def count_engagement(self, topic: str, ts: datetime, suspicious: bool) -> None:
+    def count_engagement(self, topic: str, ts: datetime, suspicious: bool,
+                         sentiment: float = 0.0) -> None:
         table = self._table("topic_stats")
         row = keys.topic_stats_key(topic, ts)
         table.counter_inc(row, b"s:total")
         if suspicious:
             table.counter_inc(row, b"s:suspicious")
+        milli = round(sentiment * _SENTIMENT_SCALE)
+        if milli:
+            table.counter_inc(row, b"s:sentiment_milli", milli)
 
-    def topic_totals(self) -> dict[str, dict[str, int]]:
-        totals: dict[str, dict[str, int]] = defaultdict(lambda: {"total": 0, "suspicious": 0})
+    def topic_totals(self) -> dict[str, dict]:
+        totals: dict[str, dict] = defaultdict(_empty_totals)
         for key, data in self._table("topic_stats").scan():
             topic = key.decode().split("|")[0]
             totals[topic]["total"] += _counter_value(data.get(b"s:total"))
             totals[topic]["suspicious"] += _counter_value(data.get(b"s:suspicious"))
+            totals[topic]["sentiment_sum"] += (
+                _counter_value(data.get(b"s:sentiment_milli")) / _SENTIMENT_SCALE)
         return dict(totals)

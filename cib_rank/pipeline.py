@@ -13,6 +13,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 
 from .scoring import SUSPICIOUS_THRESHOLD, Account, bot_score
+from .sentiment import sentiment_score
 from .topics import extract_topics
 
 
@@ -59,14 +60,19 @@ def process_event(event: dict, store, duplicates: DuplicateTracker) -> dict:
     score = bot_score(account, ts, duplicate_count=other_accounts, reply_latency_seconds=latency)
     suspicious = score >= SUSPICIOUS_THRESHOLD
 
-    topics = extract_topics(event.get("tweet_text", ""))
+    text = event.get("tweet_text", "")
+    topics = extract_topics(text)
+    sentiment = sentiment_score(text)
     store.upsert_account(account, score)
-    store.upsert_tweet(str(event["tweet_id"]), event.get("tweet_text", ""),
-                       str(event.get("author_id", "")), ts, topics)
+    store.upsert_tweet(str(event["tweet_id"]), text,
+                       str(event.get("author_id", "")), ts, topics, sentiment)
+    counted = 0
     for topic in topics:
-        store.add_engagement(topic, ts, str(event["event_id"]), event["event_type"],
-                             account.user_id, score)
-        store.count_engagement(topic, ts, suspicious)
+        # Only new engagement rows move the counters, so replays are not double-counted.
+        if store.add_engagement(topic, ts, str(event["event_id"]), event["event_type"],
+                                account.user_id, score):
+            store.count_engagement(topic, ts, suspicious, sentiment)
+            counted += 1
 
-    return {"actor_id": account.user_id, "bot_score": score,
-            "suspicious": suspicious, "topics": topics}
+    return {"actor_id": account.user_id, "bot_score": score, "suspicious": suspicious,
+            "topics": topics, "sentiment": sentiment, "counted": counted}

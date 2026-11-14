@@ -53,6 +53,45 @@ def test_duplicate_text_across_accounts_raises_score():
     assert last["bot_score"] >= first["bot_score"]
 
 
+def test_replayed_event_is_counted_once():
+    store = MemoryStore()
+    dups = DuplicateTracker()
+    first = process_event(event(), store, dups)
+    replay = process_event(event(), store, dups)
+    assert first["counted"] == 1
+    assert replay["counted"] == 0
+    assert store.topic_totals()["crypto"]["total"] == 1
+
+
+def test_keyword_topics_without_hashtag():
+    assert extract_topics("Just bought more bitcoin") == ["crypto"]
+    assert extract_topics("#crypto bitcoin", use_keywords=True) == ["crypto"]
+    assert extract_topics("Just bought more bitcoin", use_keywords=False) == []
+
+
+def test_hashtag_text_is_not_matched_as_keyword():
+    # "#recipe" is a hashtag topic, and must not also add the "cooking" keyword niche.
+    assert extract_topics("#recipe tonight") == ["recipe"]
+
+
+def test_sentiment_score_range_and_sign():
+    from cib_rank.sentiment import sentiment_score
+    assert sentiment_score("I love this, great work") > 0
+    assert sentiment_score("this is a scam, terrible") < 0
+    assert sentiment_score("the sky is blue") == 0.0
+    assert -1.0 <= sentiment_score("love hate love") <= 1.0
+
+
+def test_sentiment_is_aggregated_per_topic():
+    store = MemoryStore()
+    dups = DuplicateTracker()
+    process_event(event(tweet_text="#crypto great gains", event_id="e1"), store, dups)
+    process_event(event(tweet_text="#crypto scam", event_id="e2", actor_id="u2"), store, dups)
+    ranked = rank_topics(store.topic_totals(), min_engagements=1)
+    assert ranked[0]["topic"] == "crypto"
+    assert ranked[0]["avg_sentiment"] == 0.0  # (+1 + -1) / 2
+
+
 def test_rank_topics_orders_by_suspicious_ratio_and_filters_small_topics():
     totals = {
         "crypto": {"total": 100, "suspicious": 80},

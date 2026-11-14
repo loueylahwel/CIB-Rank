@@ -1,0 +1,9 @@
+apiVersion: 1
+
+providers:
+  - name: cib-rank
+    folder: CIB-Rank
+    type: file
+    disableDeletion: true
+    options:
+      path: /var/lib/grafana/dashboards
