@@ -22,6 +22,7 @@ SUSPICIOUS_RATIO = Gauge(
     "cib_topic_suspicious_ratio", "Share of engagements from suspicious accounts", ["topic"])
 TOPIC_TOTAL = Gauge(
     "cib_topic_engagements_total", "Engagements seen per topic", ["topic"])
+REFRESH_EVERY = 50
 
 
 def run(create_tables: bool) -> None:
@@ -41,12 +42,19 @@ def run(create_tables: bool) -> None:
         value_deserializer=lambda v: json.loads(v.decode("utf-8")),
     )
     print(f"Consuming '{KAFKA_TOPIC}', metrics on :{METRICS_PORT}")
+    processed = 0
     for message in consumer:
         process_event(message.value, store, duplicates)
-        # Refresh gauges for the topics this process has seen.
-        for row in rank_topics(store.topic_totals(), min_engagements=1):
-            SUSPICIOUS_RATIO.labels(topic=row["topic"]).set(row["suspicious_ratio"])
-            TOPIC_TOTAL.labels(topic=row["topic"]).set(row["total"])
+        processed += 1
+        # A full HBase scan is expensive, so refresh the gauges in batches.
+        if processed % REFRESH_EVERY == 0:
+            refresh_metrics(store)
+
+
+def refresh_metrics(store) -> None:
+    for row in rank_topics(store.topic_totals(), min_engagements=1):
+        SUSPICIOUS_RATIO.labels(topic=row["topic"]).set(row["suspicious_ratio"])
+        TOPIC_TOTAL.labels(topic=row["topic"]).set(row["total"])
 
 
 def main() -> None:

@@ -58,6 +58,13 @@ class MemoryStore:
         return dict(totals)
 
 
+def _counter_value(raw: bytes | None) -> int:
+    """HBase atomic counters are stored as 8-byte big-endian integers."""
+    if not raw:
+        return 0
+    return int.from_bytes(raw, byteorder="big", signed=True)
+
+
 class HBaseStore:
     """HBase backend. Needs the HBase Thrift server (see docker-compose.yml)."""
 
@@ -113,6 +120,6 @@ class HBaseStore:
         totals: dict[str, dict[str, int]] = defaultdict(lambda: {"total": 0, "suspicious": 0})
         for key, data in self._table("topic_stats").scan():
             topic = key.decode().split("|")[0]
-            totals[topic]["total"] += int(data.get(b"s:total", b"0"))
-            totals[topic]["suspicious"] += int(data.get(b"s:suspicious", b"0"))
+            totals[topic]["total"] += _counter_value(data.get(b"s:total"))
+            totals[topic]["suspicious"] += _counter_value(data.get(b"s:suspicious"))
         return dict(totals)
