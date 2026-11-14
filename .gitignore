@@ -7,3 +7,5 @@ venv/
 .env
 consumer.log
 .consumer.pid
+data/raw/
+data/fox8_events*.csv

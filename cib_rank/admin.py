@@ -9,6 +9,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 import time
 
@@ -63,16 +64,21 @@ def reset() -> None:
         admin.close()
 
 
-def settle(quiet_seconds: float = 6, timeout: float = 300) -> None:
+def settle(quiet_seconds: float = 10, timeout: float | None = None) -> None:
     """Return once the summed topic counters have not changed for `quiet_seconds`."""
+    timeout = timeout or float(os.getenv("CIB_SETTLE_TIMEOUT", "1800"))
     store = HBaseStore(HBASE_HOST, HBASE_PORT)
     deadline = time.time() + timeout
+    next_report = time.time() + 30
     last, last_change = -1, time.time()
     while time.time() < deadline:
         total = sum(t["total"] for t in store.topic_totals().values())
         if total != last:
             last, last_change = total, time.time()
-        elif total > 0 and time.time() - last_change >= quiet_seconds:
+        if time.time() >= next_report:
+            print(f"  ...{total} topic engagements counted so far", flush=True)
+            next_report = time.time() + 30
+        if total > 0 and time.time() - last_change >= quiet_seconds:
             print(f"Processing settled at {total} topic engagements")
             return
         time.sleep(1)

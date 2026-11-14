@@ -111,7 +111,7 @@ python -m scripts.generate_sample --out data/sample_engagements.csv
 python -m cib_rank.evaluate data/sample_engagements.csv
 ```
 
-On the synthetic data the score separates bots from humans perfectly. That is expected, because the generator was written to produce the patterns the heuristics look for. **It is not evidence that the heuristics work on real Twitter data.** For that, use a public labelled dataset (for example the Cresci et al. Twitter bot datasets) converted to the same CSV columns.
+On the synthetic data the score separates bots from humans perfectly. That is expected, because the generator was written to produce the patterns the heuristics look for. **It is not evidence that the heuristics work on real Twitter data.** For that, see [Results on real data](#results-on-real-data-fox8-23) below.
 
 ### 4. Run the full stack step by step (needs Docker)
 
@@ -135,6 +135,56 @@ The consumer serves Prometheus metrics on port 8000: `cib_topic_suspicious_ratio
 | 3030 | Grafana (set `CIB_GRAFANA_PORT` to change) |
 | 8000 | Consumer metrics |
 | 16010 | HBase master UI |
+
+## Results on real data (fox8-23)
+
+### Dataset
+
+[fox8-23](https://doi.org/10.5281/zenodo.8035289) (Yang & Menczer, 2023, CC BY 4.0) has 1,140 ChatGPT-powered bots from one coordinated network ("fox8", promoting crypto and news sites) and 1,140 human accounts from four older labelled datasets. Each account has up to 200 tweets with full profiles, 368,028 tweets in total. Paper: [Anatomy of an AI-powered malicious social botnet](https://arxiv.org/abs/2307.16336).
+
+```bash
+mkdir -p data/raw/fox8
+curl -L -o data/raw/fox8/fox8_23_dataset.ndjson.gz \
+  "https://zenodo.org/records/8035290/files/fox8_23_dataset.ndjson.gz?download=1"
+md5sum data/raw/fox8/fox8_23_dataset.ndjson.gz   # 15fe7f6fbd610084283587f97984792b
+python -m scripts.convert_fox8 data/raw/fox8/fox8_23_dataset.ndjson.gz --out data/fox8_events.csv
+python -m cib_rank.evaluate data/fox8_events.csv
+```
+
+The converter turns each tweet into one engagement event (retweet, reply or post). Add `--max-tweets-per-user 20` for a 45k-event file that is quick to run through the live stack. The raw and converted files are not committed (`data/raw/`, `data/fox8_events*.csv`).
+
+### Profile heuristics alone mostly miss modern bots
+
+| Threshold | Precision | Recall |
+|---|---|---|
+| 0.6 (default) | 0.857 | **0.016** |
+| 0.4 | 0.913 | 0.232 |
+| 0.25 | 0.858 | 0.307 |
+| 0.2 | 0.750 | 0.383 |
+
+AUC = 0.667, where 0.5 is random.
+
+At the default threshold the score catches 18 of 1,140 bots. What it flags is mostly right, but almost every bot passes. Average signal values for bots against humans show why:
+
+| Signal | Bots | Humans |
+|---|---|---|
+| New account | 0.28 | 0.03 |
+| Default avatar | 0.23 | 0.01 |
+| Username digits | 0.18 | 0.06 |
+| Posting rate | 0.23 | 0.19 |
+| Follower ratio | 0.16 | 0.12 |
+| Duplicate text | 0.02 | 0.00 |
+| Fast reply | 0.00 | 0.00 |
+
+The fox8 bots have ordinary-looking profiles, and because ChatGPT writes each post, they almost never repeat text. This matches the paper's finding that state-of-the-art detectors fail on these accounts.
+
+### Coordination separates them, with a caveat
+
+A **co-engagement** measure looks at the share of an account's retweets and replies that land on tweets at least 3 accounts engaged with. It separates the groups almost perfectly: bots average 0.60 and humans 0.01. At a 0.2 cutoff, precision is 0.998 and recall 0.999 (AUC 1.0).
+
+Treat that number with caution. The bots are one network active in the same months. The humans were sampled independently from four datasets collected years apart, so they almost never engage with the same tweets. The benchmark's construction inflates the gap. Co-engagement is still the right *kind* of signal for coordinated inauthentic behaviour: CIB shows in what accounts do together, not in any single profile. Measuring it fairly would need humans sampled from the same time and conversations as the bots.
+
+The analysis scripts used for these numbers are not part of the pipeline yet. A co-engagement signal in `scoring.py` is the natural next step.
 
 ## Configuration
 
@@ -161,7 +211,7 @@ One row per engagement. Columns are listed in `cib_rank/ingest.py` (`EVENT_FIELD
 - **Duplicate-text signal is per process.** The consumer keeps the text counts in memory, so a restart resets them.
 - **Simple topics.** Topics are hashtags plus a hand-written keyword list (`NICHE_KEYWORDS`). There is no automatic clustering.
 - **Simple sentiment.** The lexicon counts positive and negative words, so it misses negation and sarcasm. VADER is a stronger drop-in.
-- **Heuristic scores.** Accuracy must be measured on labelled data before any conclusion is drawn.
+- **Profile heuristics miss modern bots.** On fox8-23 they catch 1.6% of bots at the default threshold (see above). The pipeline has no co-engagement signal yet.
 - **Single-node demo stack.** `harisekhon/hbase` runs HBase in one container. Fine for a demo, not for production.
 - **Replay safety assumes one writer per event.** Two consumers writing the same event at the same instant could still double-count.
 
