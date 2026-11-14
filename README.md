@@ -26,7 +26,8 @@ CSV / Twitter data ─► ingest.py ─► Kafka topic "engagements"
 | Automation | `docker-compose.yml`, `scripts/demo.sh` | HBase (+ZooKeeper, Thrift), Kafka, Prometheus, Grafana; one-command demo |
 | Ingestion | `cib_rank/ingest.py` | Reads engagement events from CSV, publishes to Kafka |
 | Analysis | `cib_rank/consumer.py`, `pipeline.py` | Scores each account, extracts topics and sentiment, stores results |
-| Scoring | `cib_rank/scoring.py` | Heuristic bot score in [0, 1] from 7 signals |
+| Scoring | `cib_rank/scoring.py` | Heuristic bot score in [0, 1] from 7 profile signals |
+| Coordination | `cib_rank/coordination.py` | Co-engagement partners: accounts that repeatedly engage with the same tweets |
 | Topics | `cib_rank/topics.py` | Hashtags plus keywords mapped to niches (`bitcoin` → `crypto`) |
 | Sentiment | `cib_rank/sentiment.py` | Lexicon-based score in [-1, 1] |
 | Storage | `cib_rank/store.py`, `keys.py` | HBase backend (plus an in-memory backend for tests) |
@@ -46,9 +47,19 @@ CSV / Twitter data ─► ingest.py ─► Kafka topic "engagements"
 | Duplicate text | 0.10 | the same text posted by other accounts |
 | Fast reply | 0.05 | reply within 5 seconds of the original tweet |
 
-An engagement is "suspicious" when its actor's score is at least `0.6` (`SUSPICIOUS_THRESHOLD`). A topic's **suspicious ratio** is suspicious engagements divided by all engagements.
+### Coordination score
 
-These are heuristics. A high score is evidence, not proof, that an account is fake.
+Two accounts become **coordination partners** once they have retweeted, replied to or liked the same 3 tweets (`MIN_SHARED_TWEETS`). An account's coordination score is `partners / 5`, capped at 1. A tweet that more than 200 accounts engaged with is treated as viral and creates no new pairs.
+
+Counting repeated pairs, not just busy tweets, is deliberate. Thousands of strangers retweet the same viral post, but the same two strangers rarely meet again and again. Repeated co-engagement by the same pairs is the footprint of a network.
+
+The score is computed while streaming, from the evidence seen so far. An account's first engagements score low, and the score rises as the network reveals itself.
+
+### Suspicious engagements
+
+An engagement is **suspicious** when its account has a bot score of at least `0.6` (`SUSPICIOUS_THRESHOLD`) **or** a coordination score of at least `0.6`, meaning 3 or more partners (`COORDINATION_THRESHOLD`). A topic's **suspicious ratio** is suspicious engagements divided by all engagements.
+
+These are heuristics. A high score is evidence, not proof, that an account is fake or coordinated.
 
 ## HBase tables
 
@@ -178,13 +189,35 @@ At the default threshold the score catches 18 of 1,140 bots. What it flags is mo
 
 The fox8 bots have ordinary-looking profiles, and because ChatGPT writes each post, they almost never repeat text. This matches the paper's finding that state-of-the-art detectors fail on these accounts.
 
-### Coordination separates them, with a caveat
+### The coordination score catches them
 
-A **co-engagement** measure looks at the share of an account's retweets and replies that land on tweets at least 3 accounts engaged with. It separates the groups almost perfectly: bots average 0.60 and humans 0.01. At a 0.2 cutoff, precision is 0.998 and recall 0.999 (AUC 1.0).
+`python -m cib_rank.evaluate data/fox8_events.csv` on all 2,279 accounts with tweets:
 
-Treat that number with caution. The bots are one network active in the same months. The humans were sampled independently from four datasets collected years apart, so they almost never engage with the same tweets. The benchmark's construction inflates the gap. Co-engagement is still the right *kind* of signal for coordinated inauthentic behaviour: CIB shows in what accounts do together, not in any single profile. Measuring it fairly would need humans sampled from the same time and conversations as the bots.
+| Detector | Precision | Recall | Bots caught | Humans wrongly flagged |
+|---|---|---|---|---|
+| Profile bot score only | 0.857 | 0.016 | 18 / 1,140 | 3 |
+| Coordination score only | 0.953 | 0.982 | 1,120 / 1,140 | 55 |
+| **Combined (what the pipeline uses)** | **0.951** | **0.982** | **1,120 / 1,140** | **58** |
 
-The analysis scripts used for these numbers are not part of the pipeline yet. A co-engagement signal in `scoring.py` is the natural next step.
+The full 368k-event run takes about 35 seconds and 550 MB of memory.
+
+**Where it fails:**
+- **False positives are real communities.** By source dataset they come from botometer-feedback (29), midterm-2018 (16), varol-icwsm (6) and gilani-17 (4), out of 285 humans each. Their median is 4 partners, just over the threshold. They look like tight human groups replying to the same conversations. A close-knit real community resembles a small coordinated network, so a flag is a lead to investigate, not a verdict.
+- **The 20 missed bots** have 0 or 1 partners: they barely engaged with tweets anyone else touched.
+
+**Live ranking.** `scripts/demo.sh data/fox8_events_small.csv` runs 45,260 events (20 per account) through Kafka, HBase and Prometheus. That yields 14,103 topic engagements, and crypto niches top the ranking:
+
+| Topic | Engagements | Suspicious ratio |
+|---|---|---|
+| #ripple | 91 | 0.242 |
+| #kucoinspotlight | 66 | 0.227 |
+| #binanceblockchainweek | 91 | 0.187 |
+| #cryptoexchange | 59 | 0.186 |
+| #bitcoin | 311 | 0.161 |
+
+These ratios are lower than the account-level recall for two reasons. The sample has fewer shared tweets. And while streaming, a bot's early engagements are counted before its partners appear.
+
+**Caveat on the benchmark.** The bots are one network active in the same months. The humans were sampled from four datasets collected years apart, so they share far fewer tweets than real users in the same conversations would. That makes coordination easier to see here than in a live feed, and this result is an upper bound. Measuring it fairly would need humans sampled from the same time and conversations as the bots.
 
 ## Configuration
 
@@ -198,6 +231,9 @@ Environment variables (defaults in `cib_rank/config.py`):
 | `CIB_HBASE_HOST` | `localhost` |
 | `CIB_HBASE_PORT` | `9090` |
 | `CIB_METRICS_PORT` | `8000` |
+| `CIB_MIN_TOPIC_ENGAGEMENTS` | `20` (topics below this are not exported as metrics) |
+| `CIB_SETTLE_TIMEOUT` | `1800` seconds (`admin settle`) |
+| `CIB_GRAFANA_PORT` | `3030` |
 
 ## Input format
 
@@ -211,7 +247,9 @@ One row per engagement. Columns are listed in `cib_rank/ingest.py` (`EVENT_FIELD
 - **Duplicate-text signal is per process.** The consumer keeps the text counts in memory, so a restart resets them.
 - **Simple topics.** Topics are hashtags plus a hand-written keyword list (`NICHE_KEYWORDS`). There is no automatic clustering.
 - **Simple sentiment.** The lexicon counts positive and negative words, so it misses negation and sarcasm. VADER is a stronger drop-in.
-- **Profile heuristics miss modern bots.** On fox8-23 they catch 1.6% of bots at the default threshold (see above). The pipeline has no co-engagement signal yet.
+- **Profile heuristics miss modern bots.** On fox8-23 they catch 1.6% of bots alone. The coordination score carries the detection (see above).
+- **Coordination flags real communities too.** About 5% of fox8-23 humans are flagged, mostly tight groups in the same conversations.
+- **Coordination state is in memory.** Like the duplicate-text counts, co-engagement pairs reset when the consumer restarts.
 - **Single-node demo stack.** `harisekhon/hbase` runs HBase in one container. Fine for a demo, not for production.
 - **Replay safety assumes one writer per event.** Two consumers writing the same event at the same instant could still double-count.
 

@@ -9,11 +9,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 
 from prometheus_client import Gauge, start_http_server
 
 from .config import (HBASE_HOST, HBASE_PORT, KAFKA_BOOTSTRAP, KAFKA_GROUP,
                      KAFKA_TOPIC, METRICS_PORT)
+from .coordination import CoEngagementTracker
 from .pipeline import DuplicateTracker, process_event
 from .ranking import rank_topics
 from .store import HBaseStore
@@ -29,10 +31,12 @@ AVG_SENTIMENT = Gauge(
 # REFRESH_EVERY events, and also whenever the topic goes quiet.
 REFRESH_EVERY = 50
 POLL_TIMEOUT_MS = 1000
+MIN_TOPIC_ENGAGEMENTS = int(os.getenv("CIB_MIN_TOPIC_ENGAGEMENTS", "20"))
 
 
 def refresh_metrics(store) -> None:
-    for row in rank_topics(store.topic_totals(), min_engagements=1):
+    # Same minimum as the report, so a topic with one engagement cannot show 100%.
+    for row in rank_topics(store.topic_totals(), min_engagements=MIN_TOPIC_ENGAGEMENTS):
         SUSPICIOUS_RATIO.labels(topic=row["topic"]).set(row["suspicious_ratio"])
         TOPIC_TOTAL.labels(topic=row["topic"]).set(row["total"])
         AVG_SENTIMENT.labels(topic=row["topic"]).set(row["avg_sentiment"])
@@ -46,6 +50,7 @@ def run(create_tables: bool) -> None:
         store.create_tables()
 
     duplicates = DuplicateTracker()
+    coengagement = CoEngagementTracker()
     start_http_server(METRICS_PORT)
     consumer = KafkaConsumer(
         KAFKA_TOPIC,
@@ -63,7 +68,7 @@ def run(create_tables: bool) -> None:
         batches = consumer.poll(timeout_ms=POLL_TIMEOUT_MS)
         for records in batches.values():
             for record in records:
-                process_event(record.value, store, duplicates)
+                process_event(record.value, store, duplicates, coengagement)
                 processed += 1
                 since_refresh += 1
                 if since_refresh >= REFRESH_EVERY:

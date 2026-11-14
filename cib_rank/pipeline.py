@@ -12,6 +12,8 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime
 
+from .coordination import (CO_ENGAGEMENT_TYPES, COORDINATION_THRESHOLD, CoEngagementTracker,
+                           coordination_score)
 from .scoring import SUSPICIOUS_THRESHOLD, Account, bot_score
 from .sentiment import sentiment_score
 from .topics import extract_topics
@@ -38,8 +40,13 @@ def parse_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-def process_event(event: dict, store, duplicates: DuplicateTracker) -> dict:
+def process_event(event: dict, store, duplicates: DuplicateTracker,
+                  coengagement: CoEngagementTracker | None = None) -> dict:
     """Score the actor, store the records, update topic counters.
+
+    An engagement is suspicious when its account has a high profile bot score
+    OR a high coordination score (many co-engagement partners). Without a
+    `coengagement` tracker only the profile score is used.
 
     Returns a summary dict (used by the consumer for metrics and by tests).
     """
@@ -58,12 +65,17 @@ def process_event(event: dict, store, duplicates: DuplicateTracker) -> dict:
 
     other_accounts = duplicates.observe(event.get("tweet_text", ""), account.user_id)
     score = bot_score(account, ts, duplicate_count=other_accounts, reply_latency_seconds=latency)
-    suspicious = score >= SUSPICIOUS_THRESHOLD
+    coordination = 0.0
+    if coengagement is not None:
+        if event.get("event_type") in CO_ENGAGEMENT_TYPES:
+            coengagement.observe(str(event["tweet_id"]), account.user_id)
+        coordination = coordination_score(coengagement.partners_of(account.user_id))
+    suspicious = score >= SUSPICIOUS_THRESHOLD or coordination >= COORDINATION_THRESHOLD
 
     text = event.get("tweet_text", "")
     topics = extract_topics(text)
     sentiment = sentiment_score(text)
-    store.upsert_account(account, score)
+    store.upsert_account(account, score, coordination)
     store.upsert_tweet(str(event["tweet_id"]), text,
                        str(event.get("author_id", "")), ts, topics, sentiment)
     counted = 0
@@ -74,5 +86,6 @@ def process_event(event: dict, store, duplicates: DuplicateTracker) -> dict:
             store.count_engagement(topic, ts, suspicious, sentiment)
             counted += 1
 
-    return {"actor_id": account.user_id, "bot_score": score, "suspicious": suspicious,
+    return {"actor_id": account.user_id, "bot_score": score, "coordination": coordination,
+            "suspicious": suspicious,
             "topics": topics, "sentiment": sentiment, "counted": counted}

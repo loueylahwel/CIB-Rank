@@ -15,5 +15,7 @@ def test_synthetic_dataset_is_separable(tmp_path):
 
     result = evaluate(str(path))
     assert result["accounts"] == 100
-    assert result["precision"] >= 0.9
-    assert result["recall"] >= 0.9
+    assert result["profile"]["precision"] >= 0.9
+    assert result["profile"]["recall"] >= 0.9
+    assert result["combined"]["precision"] >= 0.9
+    assert result["combined"]["recall"] >= 0.9

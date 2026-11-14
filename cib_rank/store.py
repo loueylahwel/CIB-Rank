@@ -43,8 +43,9 @@ class MemoryStore:
         self.engagements: dict[bytes, dict] = {}
         self.topic_stats: dict[bytes, dict[str, int]] = defaultdict(lambda: defaultdict(int))
 
-    def upsert_account(self, account: Account, score: float) -> None:
-        self.accounts[account.user_id] = {"username": account.username, "bot_score": score}
+    def upsert_account(self, account: Account, score: float, coordination: float = 0.0) -> None:
+        self.accounts[account.user_id] = {"username": account.username, "bot_score": score,
+                                          "coordination": coordination}
 
     def upsert_tweet(self, tweet_id: str, text: str, author_id: str,
                      ts: datetime, topics: list[str], sentiment: float = 0.0) -> None:
@@ -103,7 +104,7 @@ class HBaseStore:
     def _table(self, name: str):
         return self.connection.table(name)
 
-    def upsert_account(self, account: Account, score: float) -> None:
+    def upsert_account(self, account: Account, score: float, coordination: float = 0.0) -> None:
         self._table("accounts").put(keys.account_key(account.user_id), {
             b"p:username": account.username.encode(),
             b"p:followers": str(account.followers).encode(),
@@ -111,6 +112,7 @@ class HBaseStore:
             b"p:statuses": str(account.statuses).encode(),
             b"p:default_avatar": b"1" if account.default_avatar else b"0",
             b"s:bot_score": str(score).encode(),
+            b"s:coordination": str(coordination).encode(),
         })
 
     def upsert_tweet(self, tweet_id: str, text: str, author_id: str,
